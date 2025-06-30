@@ -1,0 +1,23 @@
+/* ここからブロックタイトル */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-square {
+    width: 12px;
+    height: 13px;
+    background-color: #6274be;
+    margin-right: 28px;
+}
+.right-square {
+    width: 12px;
+    height: 13px;
+    background-color: #d54640;
+    margin-left: 28px;
+}
+.title-content {
+    font-weight: bold;
+    font-size: 45px;
+}
+/* ここまでブロックタイトル */

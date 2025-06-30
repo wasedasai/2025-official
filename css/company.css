@@ -1,0 +1,240 @@
+body {
+      font-family: "Zen Kaku Gothic New", sans-serif;
+      color: #222222;
+      background-color: #f2f2f2;
+}
+.aisatsu {
+    width: 100vw;
+    height: 450px;
+    /* background-color: aqua; */
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.left-square {
+    width: 12px;
+    height: 13px;
+    background-color: #6274be;
+    margin-right: 28px;
+}
+.right-square {
+    width: 12px;
+    height: 13px;
+    background-color: #d54640;
+    margin-left: 28px;
+}
+.title-content {
+    font-weight: 500;
+    font-size: 45px;
+}
+.aisatsu-sentence {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 60px;
+    line-height: 2;
+}
+.hosomoji {
+    font-size: 22px;
+    font-weight: 400;
+}
+/* ここから協賛スライド */ 
+.kyousan-slide {
+    width: 100vw;
+    height: 800px;
+}
+.line-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-title-content {
+    font-weight: 500;
+    font-size: 45px;
+}
+.left-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-right: 28px;
+}
+.right-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 28px;
+}
+
+.swiper-wrapper {
+  /* wrapperのサイズを調整 */
+  width: 80%;
+  height: 600px !important;
+}
+
+.swiper-slide {
+  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+  color: #ffffff;
+  width: 360px !important;
+  height: 556px;
+  text-align: center;
+  line-height: 300px;
+  text-align: center;
+  border: #000 1px solid;
+  margin: 0 auto;
+}
+
+.swiper-slide:nth-child(3n + 1) {
+}
+
+.swiper-slide:nth-child(3n + 2) {
+
+}
+
+.swiper-slide:nth-child(3n + 3) {
+
+}
+
+.swiper-pagination-bullets {
+  width: 100px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 0 0 10px !important;
+  background: #fff;
+}
+
+.swiper-pagination-bullet:first-child {
+  margin: 0 !important;
+}
+
+/* ここまで協賛スライド */
+
+/* ここから協賛ならべ */
+.kyosan-narabe {
+    width: 100vw;
+    height: 700px;
+
+}
+.kyosan-narabe-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bihinkyousan {
+    width: 536px;
+    height: 675px;
+    border: #000 1px solid;
+    border-radius: 50px;
+    padding-top: 50px;
+}
+.bihinbuppintitle {
+    font-size: 35px;
+}
+.line-bihinbuppin {
+    width: 80px;
+}
+.bihibuhiimage {
+    width: 420px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bihibuhisentence {
+    width: 438px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* ここまで協賛ならべ */
+.seikahousyuu {
+    width: 100vw;
+    height: 400px;
+}
+.seika-container {
+    width: 1122px;
+    height: 232px;
+    border: #000 1px solid;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.seikahousyuutitle {
+    font-size: 36px;
+}
+.seika-sentence {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+/* ここまで成果報酬 */
+/* ここから成果報酬詳細 */
+.kyousan-detail {
+    width: 100vw;
+    height: 600px;
+}
+.kyousan-detail-sentence {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 50px;
+}
+.address-container {
+    width: 100vw;
+    height: 300px;
+}
+.address-title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.address-box1 {
+    width: 810px;
+    height: 90px;
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.address-box2 {
+    width: 810px;
+    height: 90px;
+    border-bottom: #000 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.address-category {
+    font-size: 22px;
+    font-weight: 450;
+    width: 150px;
+    margin-left: 50px;
+}
+.address-content {
+    font-size: 22px;
+}
+/* ここまでアドレス */
+/* ここから宣誓 */
+.sensei {
+    width: 100vw;
+    height: 200px;
+}
+.sensei-sentence {
+text-align: center;
+font-size: 20px;
+font-weight: 450;
+}
+.logo {
+    margin: 0 auto;
+    width: 300px;
+}
