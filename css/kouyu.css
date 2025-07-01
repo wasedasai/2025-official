@@ -1,0 +1,166 @@
+.goaisatsu {
+    width: 100vw;
+
+}
+.title {
+    font-size: 45px;
+}
+.line-title1 {
+    margin-top: 200px;
+    font-size: 36px;
+}
+.goaisatsu-sentence {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 2;
+    margin-top: 50px;
+}
+.gosien-category {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 200px); /* 横2列、幅100pxずつ */
+    grid-template-rows: repeat(2, 62px);     /* 縦2行、高さ60pxずつ */
+    gap: 1px; /* 罫線のような隙間 */
+    background-color: #000; /* マス間の線の色 */
+    width: max-content;
+    margin: 0 auto;
+    border: #000 1px solid;
+    margin-top: 50px;
+}
+
+.cell {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.cell-hoso {
+    font-weight: 400;
+}
+
+.goshien-sentence {
+    width: 70vw;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 2;
+    margin-top: 50px;
+}
+.simekiri1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.simekiri2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.linksyu {
+    width: 70vw;
+    height: 300px;
+    margin: 0 auto;
+}
+.linksyu-category {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.qr-category {
+    width: 20vw;
+    height: 50px;
+    font-size: 25px;
+}
+.url-category {
+    width: 50vw;
+    height: 50px;
+    font-size: 25px;
+}
+.linksyu-imformation {
+    width: 70vw;
+    height: 250px;
+    display: flex;
+}
+.qr-imformation {
+    width: 20vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.qr-code {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+.url-imformation {
+    width: 50vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.url-url {
+    font-size: 25px;
+    text-align: left;
+}
+.url-attention {
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: left;
+}
+.gohumeiten-container {
+    width: 70vw;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+.mail-icon {
+    width: 15vw;
+    height: 150px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mail-icon-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.gohumeiten-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55vw;
+    height: 150px;
+}
+.gohumeiten-mail {
+    font-size: 25px;
+}
+.gohumeiten-imfo {
+    font-size: 22px;
+}
+.owarini {
+    text-align: center;
+}
+.logo {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.blockTitleContainer {
+    width: 70vw !important;
+    margin-left: 0 ;
+    margin-right: 0 ;
+    margin: 0 auto ;
+    margin-top: 80px;
+}

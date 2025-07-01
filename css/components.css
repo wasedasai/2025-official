@@ -1,3 +1,7 @@
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
 /* ここからブロックタイトル */
 .title {
     display: flex;
@@ -19,5 +23,98 @@
 .title-content {
     font-weight: bold;
     font-size: 45px;
+}
+/* ここまでブロックタイトル */
+
+/* ここからタイトル */
+.line-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-title-content {
+    font-weight: 500;
+    font-size: 45px;
+}
+.left-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-right: 28px;
+}
+.right-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 28px;
+}
+/* ここまでタイトル */
+
+/* ここからブロックタイトル */
+.blockTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.blockTitleBar {
+  width: 9px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.blockRed {
+  background-color: #222222;
+}
+
+.blockBlue {
+  background-color: #6274BE;
+}
+
+.blockYellow {
+  background-color: #f8b945;
+}
+
+.blockTitle {
+  font-size: 22px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.blockTitle-small{
+  font-size: 24px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.blockTitleBar-small{
+  width: 7px;
+  height: 26px;
+  border-radius: 3px;
+  gap: 5px;
+}
+
+@media (max-width: 500px) {
+  .blockTitleContainer {
+    gap: 5px;
+  }
+
+  .blockTitleBar {
+    width: 6px;
+    height: 20px;
+    border-radius: 3px;
+  }
+
+  .blockTitle {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
 }
 /* ここまでブロックタイトル */

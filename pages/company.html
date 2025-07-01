@@ -47,28 +47,78 @@
         </div>
     </section>
 
-    <section class="kyousan-slide">
-        <div class="line-title">
-            <div class="left-line"></div>
-            <div class="line-title-content">広告協賛</div>
-            <div class="right-line"></div>
+<section class="kyousan-slide">
+    <div class="line-title">
+        <div class="left-line"></div>
+        <div class="line-title-content">広告協賛</div>
+        <div class="right-line"></div>
+    </div>
+
+    <div class="swiper-container-wrapper">
+        <div class="left-button">
+            <img src="../img/left-allow-company.png" alt="" class="left-allow-company">
         </div>
 
         <div class="swiper">
-  <!-- 必要に応じたwrapper -->
-  <div class="swiper-wrapper">
-    <!-- スライド -->
-    <div class="swiper-slide"></div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    <div class="swiper-slide">Slide 4</div>
-  </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="blockTitleContainer">
+                        <div class="blockTitleBar blockRed"></div>
+                        <h1 class="blockTitle">公式パンフレット広告</h1>
+                    </div>
+                    <div class="item-image-container">
+                        <img src="../img/kousikipanhu1.png" alt="">
+                    </div>
+                    <div class="item-description-text">
+                        サンプリングバッグと呼ばれる、パンフレットや広告を封入した袋の片面に広告を掲載致します。 サンプリングバッグは、早稲田祭2025当日に来場者へ無料配布致します。
+                    </div>
+                </div>
 
-  <!-- 必要に応じてナビボタン -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-</div>
-    </section>
+                <div class="swiper-slide">
+                    <div class="blockTitleContainer">
+                        <div class="blockTitleBar blockRed"></div>
+                        <h1 class="blockTitle">公式パンフレット広告</h1>
+                    </div>
+                    <div class="item-image-container">
+                        <img src="../img/kousikipanhu2.png" alt="">
+                    </div>
+                    <div class="item-description-text">
+                        サンプリングバッグと呼ばれる、パンフレットや広告を封入した袋の片面に広告を掲載致します。 サンプリングバッグは、早稲田祭2025当日に来場者へ無料配布致します。
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="blockTitleContainer">
+                        <div class="blockTitleBar blockRed"></div>
+                        <h1 class="blockTitle">公式パンフレット広告</h1>
+                    </div>
+                    <div class="item-image-container">
+                        <img src="../img/kousikipanhu3.png" alt="">
+                    </div>
+                    <div class="item-description-text">
+                        サンプリングバッグと呼ばれる、パンフレットや広告を封入した袋の片面に広告を掲載致します。 サンプリングバッグは、早稲田祭2025当日に来場者へ無料配布致します。
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="blockTitleContainer">
+                        <div class="blockTitleBar blockRed"></div>
+                        <h1 class="blockTitle">公式パンフレット広告</h1>
+                    </div>
+                    <div class="item-image-container">
+                        <img src="../img/kousikipanhu3.png" alt="">
+                    </div>
+                    <div class="item-description-text">
+                        サンプリングバッグと呼ばれる、パンフレットや広告を封入した袋の片面に広告を掲載致します。 サンプリングバッグは、早稲田祭2025当日に来場者へ無料配布致します。
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-button">
+            <img src="../img/right-allow-company.png" alt="" class="right-allow-company">
+        </div>
+    </div>
+</section>
 
     <section class="kyosan-narabe">
         <div class="kyosan-narabe-container">
@@ -154,20 +204,26 @@
     </section>
 
 <script>
-    const swiper = new Swiper(".swiper", {
+const swiper = new Swiper('.kyousan-slide .swiper', {
+  loop: true,
   slidesPerView: 1,
-    breakpoints: {
-    // 768px以上の場合
-    768: {
+  spaceBetween: 24,
+
+  breakpoints:{
+    768:{
       slidesPerView: 3,
-    },
+      spaceBetween: 32
+    }
   },
-  // ページネーションが必要なら追加
-  pagination: {
-    el: ".swiper-pagination"
+
+  // ナビゲーションのセレクタをカスタムボタンに変更
+  navigation:{
+    nextEl: '.right-button', // 次へボタン
+    prevEl: '.left-button',  // 前へボタン
   },
 });
 </script>
+
 
 </body>
 </html>
