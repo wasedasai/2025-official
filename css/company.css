@@ -1,7 +1,9 @@
 body {
       font-family: "Zen Kaku Gothic New", sans-serif;
       color: #222222;
-      background-color: #f2f2f2;
+      background-color: #fbfbfb;
+      width: 100vw;
+      overflow-x: hidden;
 }
 .aisatsu {
     width: 100vw;
@@ -261,7 +263,7 @@ body {
 .kyosan-narabe {
     width: 100vw;
     height: 700px;
-
+    margin-top: 50px;
 }
 .kyosan-narabe-container {
     display: flex;
@@ -298,6 +300,7 @@ body {
 .seikahousyuu {
     width: 100vw;
     height: 400px;
+    margin-top: 50px;
 }
 .seika-container {
     width: 80vw;
@@ -365,6 +368,9 @@ body {
 }
 .address-content {
     font-size: 22px;
+}
+.mail {
+    color: #6274BE;
 }
 /* ここまでアドレス */
 /* ここから宣誓 */

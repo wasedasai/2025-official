@@ -1,7 +1,9 @@
 body {
     font-family: "Zen Kaku Gothic New", sans-serif;
 }
-
+.mail {
+    color: #6274BE;
+}
 /* ここからブロックタイトル */
 .title {
     display: flex;
