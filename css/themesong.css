@@ -1,0 +1,630 @@
+body{
+    font-family:'Zen Kaku Gothic New';
+    overflow-x: hidden;
+    background-color: #fbfbfb;
+  }
+.temahako {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+ }
+ .content{
+    width:55vw;
+ }
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 2;
+    margin: 0;
+  }
+  .circle-hako1{
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    left:3%
+  }
+.circle-hako2{
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    right:3%;
+}
+.temaru{
+    position:relative;
+}
+.maru{
+    border-radius: 50%;
+    position:absolute;
+}
+.enn{
+    border-radius: 50%;
+    position:absolute;
+}
+
+.red1 {
+    width:clamp(17px,4vw,60px);
+    height:clamp(17px,4vw,60px);
+    background-color: #d54640;
+    position:absolute;
+    top: 3vw;
+    left:12vw;
+  }
+  .blue1{
+    width:clamp(15px, 3.5vw,110px);
+    height:clamp(15px, 3.5vw,110px);
+    background-color: #6274be;
+    position:absolute;
+    top: clamp(100px,9vw,110px);
+    left:clamp(30px,3vw,250px);
+    mix-blend-mode: multiply;
+  }
+
+  .red2{
+    width:clamp(15px, 3.5vw,110px);
+    height:clamp(15px, 3.5vw,110px);
+    background-color: #d54640;
+    position:absolute;
+    top: 9.8vw;
+    left:5vw;
+    mix-blend-mode: multiply;
+  }
+  .blue2{
+    width:4vw;
+    height:4vw;
+    background-color: #6274be;
+    position:absolute;
+    top: 18vw;
+    left:13vw;
+  }
+  .red3{
+    width:5.5vw;
+    height:5.5vw;
+    background-color: #d54640;
+    position:absolute;
+    top: 27vw;
+    left:1.5vw;
+    mix-blend-mode: multiply;
+  }
+  .blue3{
+    width:5.5vw;
+    height:5.5vw;
+    background-color: #6274be;
+    position:absolute;
+    top: 30vw;
+    left:4vw;
+    mix-blend-mode: multiply;
+  }
+  .aka1{
+    width:4vw;
+    height:4vw;
+    background-color: #d54640;
+    position:absolute;
+    top: 3.5vw;
+    right:14vw;
+  }
+  .ao1{
+    width:2vw;
+    height:2vw;
+    background-color: #6274be;
+    position:absolute;
+    top: 10vw;
+    right:4vw;
+  }
+  .ao2{
+    width:4vw;
+    height:4vw;
+    background-color: #6274be;
+    position:absolute;
+    top: 13.5vw;
+    right:11.5vw;
+  }
+  .ao3{
+    width:7vw;
+    height:7vw;
+    background-color: #6274be;
+    position:absolute;
+    top: 23vw;
+    right:5vw;
+    mix-blend-mode: multiply;
+  }
+  .aka2{
+    width:7vw;
+    height:7vw;
+    background-color: #d54640;
+    position:absolute;
+    top: 26.5vw;
+    right:8.5vw;
+    mix-blend-mode: multiply;
+  }
+  .title-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top:0;
+  }
+  
+  .title-line .line {
+    flex: 1;
+    height: 1px;
+    background-color: #1b1b1b;
+    max-width: 150px;
+  }
+  
+  .title-line h1 {
+    font-size: 33px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .honbun{
+    text-align: center;
+    margin-top:50px;
+  }
+  .honbun p {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+
+.mokuhako{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+    margin-top:150px;
+}
+
+.kazarileft{
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:0%;
+}
+.iru{
+    position:relative;
+}
+.akamaru{
+    position:absolute;
+    background-color: #d54640;
+    width:15vw;
+    height:15vw;
+    left:-3.5vw;
+    top:-13vw;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+.aoshikaku{
+    position:absolute;
+    background-color: #6274be;
+    width:20vw;
+    height:20vw;
+    left:5vw;
+    top:-7vw;
+    mix-blend-mode: multiply;
+}
+.kazariright{
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    right:3%;
+}
+.bleu{
+    position:absolute;
+    background-color: #6274be;
+    width:20vw;
+    height:20vw;
+    right:5vw;
+    bottom:-45vw;
+    border-radius:50%;
+    mix-blend-mode: multiply;
+}
+.rouge{
+    position:absolute;
+    background-color: #d54640;
+    width:15vw;
+    height:15vw;
+    right:1vw;
+    bottom:-50vw;
+    mix-blend-mode: multiply;
+}
+  
+  
+  .mokubun{
+   margin-left:37vw;
+   margin-right:37vw;
+min-width:28vw;
+  }
+  .mokubun p{
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+  .accordion {
+    margin: 0 auto;
+    max-width: 1000px;
+    width:90vw;
+    margin-top:180px;
+    margin-bottom:200px;
+  }
+  
+  .accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 1.2em;
+    font-size: 33px;
+    border: none;
+    border-bottom: 1px solid #1b1b1b;
+    background-color: #fbfbfb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position:relative;
+    font-family:'Zen Kaku Gothic New';
+  }
+  
+  .accordion-header:hover {
+    background-color: #fbfbfb;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 1em;
+    border-bottom: 1px solid #fbfbfb;
+    background-color: #fbfbfb;
+    text-align:center;
+  }
+
+  .icon-arrow::before{
+		position: absolute;
+        right:40px;
+		content: '';
+		width: 40px;
+		height: 40px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 32px solid #1b1b1b; 
+        top:50px;
+	}
+	.icon-arrow::after {
+		position: absolute;
+        right:40px;
+		content: '';
+		width: 4px;
+		height: 4px;
+		border-top: solid 1px #fff;
+		border-right: solid 1px #fff;
+		top: 50%;
+		left: 5px;
+		transform: rotate(45deg);
+		margin-top: -1px;
+	}
+    .pastsongs{
+        margin-top:70px;
+        margin-left: 15vw;
+        margin-right:auto;
+    }
+    .pastsongs p{
+        text-align:left;
+    }
+  .entryrules{
+    margin-top:30px;
+        margin-left: 0;
+        margin-right:0;
+        width:110%
+  }
+  .entryrules p{
+    text-align: left;;
+    font-size:20px;
+  }
+  .futoji {
+    padding: 1em;
+    border-bottom: 1px solid #fbfbfb;
+    background-color: #fbfbfb;
+    text-align:center;
+    font-size:22px;
+    font-weight:500;
+  }
+  .sen{
+    flex: 1;
+    height: 1px;
+    background-color: #1b1b1b;
+    max-width: 200px;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:60px;
+  }
+  .themeabstract{
+    margin-top:50px;
+  }
+  .themeabstract p{
+    font-size:20px;
+    margin-bottom:1em;
+    color:#1b1b1b;
+  }
+  .judging{
+    margin:2em;
+  }
+  .data{
+    margin-right:auto;
+  }
+  .data p{
+    text-align:left;
+  }
+  .deadline{
+    font-weight: 600;
+  }
+  .way{
+    margin-left:8vw;
+  }
+  .way p{
+    text-align:left;
+  }
+  .midashi{
+    font-weight: 600;
+    margin-top: 2.5em;
+  }
+  .daylive{
+    margin-top:60px;
+    margin-bottom:60px;
+  }
+  .flow{
+    margin-top:60px;
+    margin-bottom:45px;
+  }
+.attention{
+    margin-top:40px;
+    margin-left: 0;
+    margin-right:0;
+    width:103%
+  }
+ .attention p{
+    margin:1em;
+    text-align:left;
+ }
+ .br-sp{
+    display:none;
+ }
+ @media (max-width: 768px) {
+    .br-sp{
+        display:block;
+    }
+
+  
+    h1{
+        font-size:20px;
+    }
+   
+    .title-line h1 {
+        font-size: 24px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-align:center;
+      }
+      .honbun{
+        text-align: center;
+        margin-top:50px;
+      }
+      .honbun p {
+        font-size: 14px;
+        line-height: 3em;
+        margin-bottom: 0.8rem;
+      }
+      p {
+        font-size: 14px;
+        line-height: 4em;
+      }
+      .title-line .line {
+        flex: 1;
+        height: 1px;
+        background-color: #1b1b1b;
+        max-width: 45px;
+      }
+      .mokubun{
+        margin-left:15vw;
+        margin-right:15vw;
+     min-width:28vw;
+       }
+       .mokubun p{
+         text-align: left;
+         font-size: 14px;
+         line-height: 1.8;
+         margin-bottom: 1.2rem;
+       }
+       .bleu{
+        position:absolute;
+        background-color: #6274be;
+        width:20vw;
+        height:20vw;
+        right:5vw;
+        bottom:-580px;
+        border-radius:50%;
+        mix-blend-mode: multiply;
+    }
+    .rouge{
+        position:absolute;
+        background-color: #d54640;
+        width:15vw;
+        height:15vw;
+        right:1vw;
+        bottom:-605px;
+        mix-blend-mode: multiply;
+    }
+    .accordion-header {
+        width: 100%;
+        text-align: left;
+        padding: 1.2em;
+        font-size: 14px;
+        border: none;
+        border-bottom: 1px solid #1b1b1b;
+        background-color: #fbfbfb;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position:relative;
+        font-family:'Zen Kaku Gothic New';
+      }
+      .icon-arrow::before{
+		position: absolute;
+        right:20px;
+		content: '';
+		width: 20px;
+		height: 20px;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+        border-top: 16px solid #1b1b1b; 
+        top:20px;
+	}
+	.icon-arrow::after {
+		position: absolute;
+        right:40px;
+		content: '';
+		width: 4px;
+		height: 4px;
+		border-top: solid 1px #fff;
+		border-right: solid 1px #fff;
+		top: 50%;
+		left: 5px;
+		transform: rotate(45deg);
+		margin-top: -1px;
+	}
+    .accordion-content{
+        width:103%;
+        font-size:14px;
+    border-bottom: 1px solid #fbfbfb;
+    background-color: #fbfbfb;
+    text-align:center;
+    }
+    
+    .body{
+        font-size:14px;
+    }
+    .accordion {
+        margin: auto;
+        width:85vw;
+        margin-top:50px;
+        margin-bottom:50px;
+      }
+      .pastsongs{
+        margin-top:70px;
+        margin-left: 0vw;
+        margin-right:auto;
+    }
+    .pastsongs p{
+        text-align:center;
+        padding:1em;
+        line-height: 1.6;
+    }
+    .entryrules{
+        margin-top:20px;
+        margin-bottom:20px;
+            margin-left: 0px;
+            margin-right:0;
+            width:100%
+      }
+      .entryrules p{
+        text-align: left;;
+        font-size:14px;
+        line-height: 1.3;
+      }
+      .futoji {
+        padding: 0;
+        border-bottom: 1px solid #fbfbfb;
+        background-color: #fbfbfb;
+        text-align:center;
+        font-size:14px;
+        font-weight:500;
+      }
+      .sen{
+        flex: 1;
+        height: 1px;
+        background-color: #1b1b1b;
+        max-width: 200px;
+        margin:auto;
+        margin-top:100px;
+        margin-bottom:60px;
+      }
+      .themeabstract{
+        margin-top:50px;
+      }
+      .themeabstract p{
+        font-size:14px;
+        margin-bottom:1em;
+        color:#1b1b1b;
+      }
+      .judging{
+        line-height:1.5;
+        margin:0;
+      }
+      .data{
+        margin-right:auto;
+      }
+      .data p{
+        text-align:left;
+        font-size:14px;
+        line-height:1.4;
+      }
+      .deadline{
+        font-weight: 600;
+      }
+      .way{
+        margin-left:0;
+        width:103%;
+      }
+      .way p{
+        text-align:left;
+        line-height:1.7;
+      }
+      .midashi{
+        font-weight: 600;
+        margin-top: 1.5em;
+      }
+      .daylive{
+        margin-top:30px;
+        margin-bottom:30px;
+        line-height:1.7;
+
+      }
+      .flow{
+        margin-top:60px;
+        margin-bottom:45px;
+      }
+    .attention{
+        margin-top:30px;
+        margin-left: 0;
+        margin-right:0;
+        width:103%;
+      }
+     .attention p{
+        margin:1em;
+        text-align:left;
+        line-height:1.7;
+     }
+ }

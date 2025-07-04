@@ -1,0 +1,350 @@
+body{
+  font-family:'Zen Kaku Gothic New';
+  overflow-x: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .content {
+    max-width: 930px;
+    
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 2;
+    margin: 0;
+  }
+
+  .circle-column {
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    right:3%
+  }
+  .imiwakaran{
+    position:relative
+  }
+
+  .circle {
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .blue1 {
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    background-color: #6274be;
+    top: 1vw;
+    right:15vw;
+    }
+
+  .red1 {
+    width:5.5vw;
+    height:5.5vw;
+    background-color: #d54640;
+    position:absolute;
+    top: 7vw;
+    right:7.5vw;
+  }
+
+  .blue2{
+    background-color: #6274be;
+    width:7vw;
+    height:7vw;
+    right:1vw;
+    top:15vw;
+  }
+  .red2{
+    background-color: #d54640;
+    width:7.5vw;
+    height:7.5vw;
+    right:0vw;
+    top:26vw;
+  }
+  .blue3{
+    background-color: #6274be;
+    width:8vw;
+    height:8vw;
+    right:5.5vw;
+    top:35vw;
+    mix-blend-mode: multiply;
+  }
+  .red3{
+    background-color: #d54640;
+    width:9vw;
+    height:9vw;
+    right:10vw;
+    top:38vw;
+    mix-blend-mode: multiply;
+  }
+  
+  .container2{
+    display:flex;
+    font-size: 40px;
+    width:100vw;
+    top:20px;
+    margin-bottom: 100px;
+  }
+
+  .kaidate{
+    width:52vw;
+    height:42vw;
+    border-radius: 50%;
+    background-color: #6274be;
+    transform:translateX(-7vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+.kaise{
+  font-size: 40px;
+  position: absolute;
+  color: #fbfbfb;
+}
+.kaimoji{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:48vw;
+  height:42vw;
+}
+.kaimoji p{
+  font-size: 42px;
+}
+.container3{
+  display:flex;
+  font-size: 40px;
+  width:100vw;
+  top:20px;
+  margin-top: 30px;
+}
+
+.kaibasyo{
+  width:52vw;
+  height:42vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  transform: translateX(7vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.baise{
+font-size: 40px;
+position: absolute;
+color: #fbfbfb;
+}
+.basyomoji{
+display:flex;
+align-items: center;
+justify-content: center;
+width:48vw;
+height:42vw;
+margin-left:3vw;
+}
+.basyomoji p{
+  font-size: 42px;
+}
+.container4{
+  display:flex;
+  justify-content: center;
+  margin:200px;
+  margin-bottom:100px;
+}
+.container4 p{
+  text-align: center;
+  font-size: 42px;
+}
+.dodeka-container{
+  display:flex;
+  justify-content: space-between;
+}
+.marujou{
+  width: 33vw;
+}
+.rinku{
+  width:33vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+}
+.rinku a{
+  color:#6274be;
+}
+.rinku p{
+  font-size:27px;
+}
+.text-black{
+  color: #222222;
+  display:inline-block;
+}
+.marusan{
+  width:33vw;
+  position:relative;
+}
+.redn1{
+  width:20vw;
+  height:20vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  transform:translateX(-3vw);
+  mix-blend-mode: multiply;
+
+}
+.bluen1{
+  width:15vw;
+  height:15vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  transform:translateX(-5vw) translateY(-6vw);
+  mix-blend-mode: multiply;
+}
+.redn2{
+  width:7vw;
+  height:7vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  position:absolute;
+  right:5vw;
+  top:50vw;
+}
+
+.bluen2{
+  width:10vw;
+  height:10vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  position:absolute;
+  right:2vw;
+  top:62vw;
+}
+
+.redn3{
+  width:13vw;
+  height:13vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  position:absolute;
+  right:7vw;
+  top:75vw;
+  mix-blend-mode: multiply;
+}
+
+.bluen3{
+  width:15vw;
+  height:15vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  position:absolute;
+  right:14vw;
+  top:80vw;
+  mix-blend-mode: multiply;
+}
+
+  @media (max-width: 768px) {
+
+    .container {
+      align-items: center;
+      position: relative;
+      text-align: center;
+      height:auto;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 0;
+      margin-top:0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 2;
+      margin: 0;
+    }
+    .kaise{
+      font-size: 14px;
+      position: absolute;
+      color: #fbfbfb;
+    }
+    .baise{
+      font-size: 14px;
+      position: absolute;
+      color: #fbfbfb;
+      }
+    .basyomoji p{
+        font-size: 14px;
+     }
+    .kaimoji p{
+      font-size:14px;
+    }
+    .container4{
+    margin:2em;
+    }
+    .container4 p{
+      font-size: 14px;
+    }
+    .circle {
+      border-radius: 50%;
+      position:absolute;
+    }
+  
+    .blue1 {
+      display:none;
+      }
+  
+    .red1 {
+      display:none;
+    }
+  
+    .blue2{
+      background-color: #6274be;
+      width:5vw;
+      height:5vw;
+      right:1vw;
+      top:120vw;
+    }
+    .red2{
+      background-color: #d54640;
+      width:7.5vw;
+      height:7.5vw;
+      right:0vw;
+      top:130vw;
+    }
+    .blue3{
+      background-color: #6274be;
+      width:8vw;
+      height:8vw;
+      right:5.5vw;
+      top:140vw;
+      mix-blend-mode: multiply;
+    }
+    .red3{
+      background-color: #d54640;
+      width:9vw;
+      height:9vw;
+      right:10vw;
+      top:145vw;
+      mix-blend-mode: multiply;
+    }
+  }
