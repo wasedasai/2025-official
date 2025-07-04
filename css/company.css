@@ -46,7 +46,6 @@ body {
 /* ここから協賛スライド */ 
 .kyousan-slide {
     width: 100vw;
-    height: 800px;
 }
 .line-title {
     display: flex;
@@ -81,10 +80,11 @@ body {
 
 
 .swiper-slide {
-    height: 675px !important;
+    height: 550px !important;
     border: #000 1px solid;
     padding-top: 50px;
     box-sizing: border-box; /* パディングを高さに含める */
+    border-radius: 5px;
 }
 /* スライダー全体のコンテナ設定 */
 .kyousan-slide .swiper {
@@ -96,7 +96,7 @@ body {
 /* bihinkyousan に対応 */
 .grid-item {
     width: 27vw;
-    height: 675px;
+    height: 400px;
     border: #000 1px solid;
     padding-top: 50px;
 }
@@ -255,6 +255,7 @@ body {
 
 /* スライドの高さの再調整 */
 .swiper-slide {
+
 }
 
 /* ここまで協賛スライド */
@@ -396,6 +397,9 @@ font-weight: 450;
   align-items: center;
   gap: 10px;
   margin-left: 30px;
+
+height: 50px;
+
 }
 
 .blockTitleBar {
@@ -458,3 +462,128 @@ font-weight: 450;
   }
 }
 /* ここまでブロックタイトル */
+.sp {
+    display: none;
+}
+.pc {
+    display: inline;
+}
+@media (max-width: 768px) {
+.sp {
+    display: inline;
+}
+.pc {
+    display: none;
+}
+.title {
+    margin-top: 100px;
+}
+.aisatsu {
+    height: 250px;
+}
+.title-content {
+    font-size: 20px;
+}
+.aisatsu-sentence {
+    font-size: 13px;
+}
+.line-title-content {
+    font-size: 22px;
+}
+.left-line {
+    width: 45px;
+    margin-right: 10px;
+}
+.right-line {
+    width: 45px;
+    margin-left: 10px;
+}
+.swiper-slide {
+    width: 282px;
+    padding-top: 20px;
+    height: 437px !important;
+}
+  .kyousan-slide .swiper {
+    width: 282px;
+    margin: 0 auto;
+  }
+
+  /* 各スライドの幅を 282px に固定 */
+  .kyousan-slide .swiper-slide {
+    width: 282px !important;   /* Swiper が inline-style を付与するため !important で上書き */
+  }
+.item-description-text {
+    font-size: 14px !important;
+}
+.kyosan-narabe {
+    height: 1000px;
+}
+.kyosan-narabe-container {
+    display: inline;
+
+}
+.bihinkyousan {
+    width: 80vw;
+    margin: 0 auto;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.bihibuhiimage {
+    width: 55vw;
+}
+.bihibuhisentence {
+    width: 55vw;
+    font-size: 14px;
+}
+.seika-sentence {
+    font-size: 14px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 2;
+}
+.seikahousyuu {
+    height: 300px !important;
+}
+.kyousan-detail-sentence {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.address-box1 {
+    width: 90%;
+
+}
+.address-box2 {
+    width: 90%;
+}
+.address-title {
+    font-size: 18px;
+}
+.address-category {
+    font-size: 16px;
+    width: 80px;
+}
+.address-content {
+    font-size: 16px;
+}
+.sensei-sentence {
+    font-size: 14px;
+}
+.left-allow-company,
+.right-allow-company {
+    width: 25px;
+    height: 25px;
+}
+.left-button,
+.right-button {
+    width: 25px;
+    height: 25px;
+}
+.logo {
+    margin-top: 10px;
+}
+}

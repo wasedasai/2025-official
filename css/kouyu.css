@@ -12,6 +12,9 @@
     margin-top: 200px;
     font-size: 36px;
 }
+.line-title-content {
+    font-size: 36px;
+}
 .goaisatsu-sentence {
     width: 80vw;
     margin: 0 auto;
@@ -44,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: 700;
 }
 .cell-hoso {
     font-weight: 400;
@@ -173,4 +176,163 @@
     margin-right: 0 ;
     margin: 0 auto ;
     margin-top: 80px;
+}
+.sp {
+    display: none;
+}
+.pc {
+    display: inline;
+}
+.linksyu-sp {
+    display: none;
+}
+@media (max-width: 768px) {
+.sp {
+    display: inline;
+}
+.pc {
+    display: none;
+}
+.title {
+    margin-top: 100px;
+}
+.title-content{
+    font-size: 20px;
+}
+.left-square {
+    width: 6px;
+    height: 6px;
+}
+.right-square {
+    width: 6px;
+    height: 6px;
+}
+.line-title-content {
+    font-size: 25px;
+}
+.left-line {
+    width: 45px;
+    height: 1px;
+}
+.right-line {
+    width: 45px;
+    height: 1px;
+}
+.line-title1 {
+    margin-top: 60px;
+}
+.goaisatsu-sentence {
+    font-size: 13px;
+}
+.line-title-content {
+    text-align: center;
+}
+.gosien-category {
+    font-size: 20px;
+}
+.table {
+    grid-template-columns: repeat(2, 150px); /* 横2列、幅100pxずつ */
+    grid-template-rows: repeat(2, 40px);     /* 縦2行、高さ40pxずつ */
+    margin-top: 20px;
+}
+.cell-hoso {
+    font-size: 15px;
+}
+.goshien-sentence {
+    font-size: 14px;
+    padding-left: 0;
+    margin-top: 0px;
+}
+.simekiri1 {
+    font-size: 25px;
+}
+.simekiri2 {
+    font-size: 15px;
+}
+.linksyu {
+    display: none;
+}
+/* linksyu-sp.css */
+.linksyu-sp {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+/* ─── 左右カラム共通 ─── */
+.linksyu-left-sp,
+.linksyu-right-sp {
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* 見出し */
+.qr-category-sp,
+.url-category-sp {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-left: -10px;
+}
+
+/* QR 部分 */
+.qr-information-sp {
+  display: flex;
+
+  align-items: center;
+}
+.qr-code-sp {
+  width: 149px;
+  height: 149px;
+  background-color: gray;
+}
+
+/* URL 部分 */
+.url-information-sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.url-url-sp {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.url-attention-sp {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* ─── 画面幅 600px 未満で縦並び ─── */
+.linksyu-left-sp,
+.linksyu-right-sp {
+    width: 100%;
+}
+.mail-icon-image {
+    width: 50px;
+    height: 50px;
+}
+.gohumeiten-detail {
+    margin-left: 30px;
+}
+.gohumeiten-mail {
+    font-size: 14px;
+}
+.gohumeiten-imfo {
+    font-size: 14px;
+}
+.blockTitleContainer {
+    margin-top: 35px;
+}
+.owarini {
+    width: 90vw;
+}
+.logo {
+    margin-top: 0;
+}
 }
