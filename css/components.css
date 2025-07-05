@@ -391,5 +391,8 @@ footer{
 .footer-sns-container{
     margin-right: 30px;
   }
+  .footer-small-font{
+    font-size: 13px;
+  }
 }
 /* ここまでフッター */
