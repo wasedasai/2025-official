@@ -6,6 +6,7 @@
 body{
     font-family: "Zen Kaku Gothic New", sans-serif;
     background-color: #fbfbfb;
+    color: #222222;
 }
 /* ここからヘッダー */
 .header-container{
@@ -157,8 +158,8 @@ body{
   transition: .3s ease;
 }
 .sns-area p{
-  margin-left: 35px;
-  font-size: 18px;
+  margin-left: 15px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 .sns-text-box{
