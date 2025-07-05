@@ -44,9 +44,9 @@ body{
 }
 .hamburger-container{
   position: fixed;
-  top: 13px;
+  top: 18px;
   right: 40px;
-  width: 72px; height: 72px;
+  width: 63px; height: 63px;
   display: flex;
   flex-direction: column;
   justify-content: center;
