@@ -16,6 +16,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .left-square {
     width: 12px;
@@ -43,7 +44,7 @@ p{
 }
 .line-title-content {
     font-weight: 500;
-    font-size: 45px;
+    font-size: 32px;
 }
 .left-line {
     width: 78px;
@@ -59,9 +60,7 @@ p{
 }
 /* ここまでタイトル */
 
-/* .sectionTitle{
-    text-align: center;
-} */
+
 .catchcopy{
     text-align: center;
     margin-top: 50px;
@@ -204,7 +203,7 @@ p{
 
 .logoData{
     width: 80vw;
-    margin: 100px auto 0 100px;
+    margin: 100px auto 100px auto;
     text-align: center;
 }
 
@@ -294,9 +293,7 @@ a{
     display: none;
 }
 
-/* .pcOnly{
-    display: block;
-} */
+
 
  .title{
         margin-top: 200px;
@@ -346,24 +343,72 @@ a{
     }
 
     .title{
-        margin-top: 100px;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .title-content{
+        font-size: 20px;
+    }
+
+    .left-square {
+        width: 8px;
+        height: 8px;
+        background-color: #6274be;
+        margin-right: 20px;
+    }
+    .right-square {
+        width: 8px;
+        height: 8px;
+        background-color: #d54640;
+        margin-left: 20px;
+    }
+
+
+    .line-title{
+        width: 80vw;
+        margin: 0 auto;
+    }
+     .line-title h1 {
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-align:center;
+      }
+
+    .left-line {
+        width: 40px;
+        height: 1px;
+        background-color: #000;
+        margin-right: 15px;
+    }
+    .right-line {
+        width: 40px;
+        height: 1px;
+        background-color: #000;
+        margin-left: 15px;
     }
 
     .catchcopyUpper{
-    margin-top: 50px;
-    margin-bottom: 25px;
-    font-size: 32px;
-    font-weight: 500;
-}
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 32px;
+        font-weight: 500;
+    }
 
-.catchcopyUnder{
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 50px;
-}
+    .catchcopyUnder{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
 
     .tellYourLife{
         font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .mainSlogan{
+        margin: 30px 0 30px 0;
     }
 
     .logoText{
@@ -379,7 +424,7 @@ a{
     .catchcopy{
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         font-size: 24px;
     }
 
@@ -388,18 +433,18 @@ a{
     }
 
     .colorSquare{
-    width: 45px;
-    height: 45px;
-}
+        width: 45px;
+        height: 45px;
+    }
 
     .colorPallete{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    width: 80vw;
-    margin: 50px auto 70px auto ;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        width: 80vw;
+        margin: 50px auto 70px auto ;
+    }
 
     .fontsContainer{
         margin: 30px auto 70px auto;
@@ -416,34 +461,34 @@ a{
     }
 
     .fontSmall{
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
 
 
-.fontBig{
-    font-size: 32px;
-}
+    .fontBig{
+        font-size: 32px;
+    }
 
-.logoData{
-    width: 80vw;
-    margin: 30px auto;
-    text-align: center;
-}
+    .logoData{
+        width: 80vw;
+        margin: 30px auto;
+        text-align: center;
+    }
 
-.logoData p{
-    font-size: 14px;
-}
+    .logoData p{
+        font-size: 14px;
+    }
 
     .logoImage{
-    width: 265px;
-    height: auto;
-}
+        width: 265px;
+        height: auto;
+    }
 
-.logoData p{
-    font-weight: 500;
-    margin-top: 30px;
-}
+    .logoData p{
+        font-weight: 500;
+        margin-top: 30px;
+    }
 
      .isolation-img img{ width: 100%; height: auto; margin-bottom: 0px; margin-top: 0;}
   .isolation-img-container{
@@ -473,7 +518,7 @@ a{
 
   .logoSection{
     width: 80vw;
-    margin: 70px auto;
+    margin: 50px auto;
 }
 
 .logoText{
