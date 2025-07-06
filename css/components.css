@@ -151,8 +151,11 @@ body{
   margin-bottom: 50px;
   margin-left: 108px;
 }
+.footer-sns-icon{
+  margin-right: 10px;
+}
 .footer-sns-text-box{
-  margin-right: -37px;
+  margin-right: -30px;
 }
 .sns-area img{ width: 40px; }
 .sns-area a:hover{
