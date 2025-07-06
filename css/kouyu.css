@@ -1,6 +1,10 @@
 *{
     background-color: #fbfbfb;
 }
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 .goaisatsu {
     width: 100vw;
 
@@ -199,6 +203,9 @@
     background-color: #ffffff;
 }
 .footer-sns-container {
+    background-color: #ffffff;
+}
+.footer-sns-text-box {
     background-color: #ffffff;
 }
 @media (max-width: 768px) {
