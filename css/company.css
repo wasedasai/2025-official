@@ -476,11 +476,24 @@ height: 50px;
 .footer-sns-container {
     background-color: #ffffff;
 }
+footer {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.footer-blue-decoration img {
+    background-color: #6274be !important;
+}
 .sp {
     display: none;
 }
 .pc {
     display: block;
+}
+.sns-text-box {
+    background-color: #ffffff !important;
+}
+.sns-area {
+    background-color: #ffffff !important;
 }
 @media (max-width: 768px) {
 .sp {
@@ -617,4 +630,5 @@ height: 50px;
 .logo {
     margin-top: 10px;
 }
+
 }

@@ -208,6 +208,21 @@ body {
 .footer-sns-text-box {
     background-color: #ffffff;
 }
+
+.sns-text-box {
+    background-color: #ffffff !important;
+}
+.sns-area {
+    background-color: #ffffff !important;
+}
+footer {
+    width: 100vw;
+    overflow-x: hidden;
+}
+.footer-blue-decoration img {
+    background-color: #6274be !important;
+}
+
 @media (max-width: 768px) {
 .sp {
     display: inline;
