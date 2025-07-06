@@ -80,7 +80,7 @@ body {
 
 
 .swiper-slide {
-    height: 550px !important;
+    height: 500px !important;
     border: #000 1px solid;
     padding-top: 50px;
     box-sizing: border-box; /* パディングを高さに含める */
@@ -305,7 +305,6 @@ body {
 }
 .seika-container {
     width: 80vw;
-    height: 232px;
     border: #000 1px solid;
     border-radius: 50px;
     margin: 0 auto;
@@ -318,6 +317,7 @@ body {
     text-align: center;
     font-size: 20px;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 /* ここまで成果報酬 */
 /* ここから成果報酬詳細 */
@@ -377,7 +377,6 @@ body {
 /* ここから宣誓 */
 .sensei {
     width: 100vw;
-    height: 200px;
     margin-top: 50px;
 }
 .sensei-sentence {
@@ -462,11 +461,26 @@ height: 50px;
   }
 }
 /* ここまでブロックタイトル */
+.menu-list li {
+    background-color: #ffffff   ;
+}
+.footer-menu-list li {
+    background-color: #ffffff;
+}
+.footer-menu-list li {
+    background-color: #ffffff;
+}
+.footer-sns-icon {
+    background-color: #ffffff;
+}
+.footer-sns-container {
+    background-color: #ffffff;
+}
 .sp {
     display: none;
 }
 .pc {
-    display: inline;
+    display: block;
 }
 @media (max-width: 768px) {
 .sp {
@@ -476,32 +490,33 @@ height: 50px;
     display: none;
 }
 .title {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .aisatsu {
     height: 250px;
 }
 .title-content {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 .aisatsu-sentence {
     font-size: 13px;
 }
 .line-title-content {
-    font-size: 22px;
+    font-size: 22px !important;
+    text-align: center;
 }
 .left-line {
-    width: 45px;
+    width: 45px !important;
     margin-right: 10px;
 }
 .right-line {
-    width: 45px;
+    width: 45px !important;
     margin-left: 10px;
 }
 .swiper-slide {
     width: 282px;
     padding-top: 20px;
-    height: 437px !important;
+    height: 400px !important;
 }
   .kyousan-slide .swiper {
     width: 282px;
@@ -516,7 +531,7 @@ height: 50px;
     font-size: 14px !important;
 }
 .kyosan-narabe {
-    height: 1000px;
+    height: auto;
 }
 .kyosan-narabe-container {
     display: inline;
@@ -525,33 +540,46 @@ height: 50px;
 .bihinkyousan {
     width: 80vw;
     margin: 0 auto;
-    height: 500px;
     margin-bottom: 30px;
+    border: none;
+    text-align: center;
+    height: 150px;
+    padding: 0;
 }
 .bihibuhiimage {
     width: 55vw;
 }
 .bihibuhisentence {
-    width: 55vw;
+    width: 80vw;
     font-size: 14px;
+    margin-top: 20px;
+}
+.seika-container {
+    border: none;
+    padding: 0;
 }
 .seika-sentence {
     font-size: 14px;
     text-align: left;
-    width: 80%;
+    width: 80vw;
     margin: 0 auto;
     margin-top: 20px;
     line-height: 2;
+    text-align: center;
 }
 .seikahousyuu {
-    height: 300px !important;
+    height: 220px !important;
+}
+.seikahousyuutitle {
+    font-size: 15px !important;
 }
 .kyousan-detail-sentence {
     text-align: left;
-    width: 70%;
+    width: 80vw;
     margin: 0 auto;
     font-size: 14px;
     margin-top: 20px;
+    text-align: center;
 }
 .address-box1 {
     width: 90%;
@@ -562,14 +590,15 @@ height: 50px;
 }
 .address-title {
     font-size: 18px;
+    margin-top: 70px;
 }
 .address-category {
     font-size: 16px;
     width: 80px;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 .address-content {
-    font-size: 16px;
+    font-size: 14px;
 }
 .sensei-sentence {
     font-size: 14px;

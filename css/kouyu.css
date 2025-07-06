@@ -186,6 +186,21 @@
 .linksyu-sp {
     display: none;
 }
+.mobile-menu {
+    background-color: #ffffff;
+}
+.menu-list li {
+    background-color: #ffffff   ;
+}
+.footer-menu-list li {
+    background-color: #ffffff;
+}
+.footer-sns-icon {
+    background-color: #ffffff;
+}
+.footer-sns-container {
+    background-color: #ffffff;
+}
 @media (max-width: 768px) {
 .sp {
     display: inline;
@@ -194,7 +209,7 @@
     display: none;
 }
 .title {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .title-content{
     font-size: 20px;
@@ -312,6 +327,9 @@
 .linksyu-left-sp,
 .linksyu-right-sp {
     width: 100%;
+}
+.mail-icon {
+margin-top: -20px;
 }
 .mail-icon-image {
     width: 50px;
