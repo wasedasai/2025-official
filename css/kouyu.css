@@ -231,7 +231,7 @@
     font-size: 20px;
 }
 .table {
-    grid-template-columns: repeat(2, 150px); /* 横2列、幅100pxずつ */
+    grid-template-columns: repeat(2, 148px); /* 横2列、幅100pxずつ */
     grid-template-rows: repeat(2, 40px);     /* 縦2行、高さ40pxずつ */
     margin-top: 20px;
 }

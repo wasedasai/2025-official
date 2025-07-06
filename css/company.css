@@ -339,8 +339,8 @@ body {
     font-size: 24px;
     font-weight: 500;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 .address-box1 {
     width: 810px;
@@ -365,7 +365,7 @@ body {
     font-size: 22px;
     font-weight: 450;
     width: 150px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 .address-content {
     font-size: 22px;
@@ -566,6 +566,7 @@ height: 50px;
 .address-category {
     font-size: 16px;
     width: 80px;
+    margin-left: 25px;
 }
 .address-content {
     font-size: 16px;
@@ -575,13 +576,13 @@ height: 50px;
 }
 .left-allow-company,
 .right-allow-company {
-    width: 25px;
-    height: 25px;
+    width: 44px;
+    height: 44px;
 }
 .left-button,
 .right-button {
-    width: 25px;
-    height: 25px;
+    width: 44px;
+    height: 44px;
 }
 .logo {
     margin-top: 10px;
