@@ -461,6 +461,7 @@ body {
   margin: 0;
   font-weight: 500;
   bottom: 25px;
+  width: 100%; /* ← これ追加 */
 }
 .box h5 {
   position: absolute;
@@ -471,6 +472,21 @@ body {
   color: #222222;
   margin: 0;
   font-weight: 500;
+  width: 100%;
+}
+.box h6 {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  color: #222222;
+  margin: 0;
+  font-weight: 500;
+  width: 100%;
+}
+.only-sp {
+  display: none;
 }
 .circle {
   border-radius: 50%;
@@ -717,9 +733,18 @@ body {
   }
   .box p {
     font-size: 3vw;
+    bottom: 30%;
+  }
+  .box h6 {
+    font-size: 3vw;
+    bottom: 40%;
   }
   .box h5 {
     font-size: 2.5vw;
+    bottom: 35%;
+  }
+  .only-sp {
+    display: inline;
   }
   .blue-circle-left {
     background-color: #6274be;
