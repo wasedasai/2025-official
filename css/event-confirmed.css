@@ -1,0 +1,475 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:'Zen Kaku Gothic New';
+  overflow-x: hidden;
+}
+.taitoru1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.left-square1 {
+  width: 12px;
+  height: 12px;
+  background-color: #6274be;
+  margin-right: 28px;
+}
+.right-square1 {
+  width: 12px;
+  height: 12px;
+  background-color: #d54640;
+  margin-left: 28px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+    margin-top:90px;
+  }
+
+  .content {
+    max-width: 930px;
+    
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 2;
+    margin: 0;
+  }
+
+  .circle-column {
+    position: absolute;
+    height:600px;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    right:3%
+  }
+  .imiwakaran{
+    position:relative
+  }
+
+  .circle {
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .blue1 {
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    background-color: #6274be;
+    top: 1vw;
+    right:15vw;
+    }
+
+  .red1 {
+    width:5.5vw;
+    height:5.5vw;
+    background-color: #d54640;
+    position:absolute;
+    top: 7vw;
+    right:7.5vw;
+  }
+
+  .blue2{
+    background-color: #6274be;
+    width:7vw;
+    height:7vw;
+    right:1vw;
+    top:15vw;
+  }
+  .red2{
+    background-color: #d54640;
+    width:7.5vw;
+    height:7.5vw;
+    right:0vw;
+    top:26vw;
+  }
+  .blue3{
+    background-color: #6274be;
+    width:8vw;
+    height:8vw;
+    right:5.5vw;
+    top:35vw;
+    mix-blend-mode: multiply;
+  }
+  .red3{
+    background-color: #d54640;
+    width:9vw;
+    height:9vw;
+    right:10vw;
+    top:38vw;
+    mix-blend-mode: multiply;
+  }
+.container2{
+  display:flex;
+  justify-content: space-between;
+  margin-top:50px;
+  margin-bottom:100px;
+
+}
+.kaidate1{
+  width:20vw;
+  position:relative;
+}
+.kaidate2{
+  position:absolute;
+  width:50vw;
+  height:35vw;
+  border-radius: 50%;
+  background-color:#6274be;
+  left:-40vw;
+  top:-10vw;
+}
+.kaimoji{
+  width:58vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}  
+.kaimoji p{
+  margin:2em;
+  font-size:42px;
+}
+.kaibasyo1{
+  width:20vw;
+  position: relative;
+}
+.kaibasyo2{
+  position:absolute;
+  width:50vw;
+  height:35vw;
+  border-radius: 50%;
+  background-color:#d54640;
+  right:-40vw;
+  bottom:-15vw;
+}
+
+.container4{
+  display:flex;
+  justify-content: center;
+  margin:200px;
+  margin-bottom:100px;
+}
+.container4 p{
+  text-align: center;
+  font-size: 42px;
+}
+.dodeka-container{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 13vw;
+}
+.marujou{
+  width: 33vw;
+}
+.rinku{
+  width:33vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+}
+.rinku a{
+  color:#6274be;
+}
+.rinku p{
+  font-size:27px;
+}
+.text-black{
+  color: #222222;
+  display:inline-block;
+}
+.marusan{
+  width:33vw;
+  position:relative;
+}
+.redn1{
+  width:20vw;
+  height:20vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  transform:translateX(-3vw);
+  mix-blend-mode: multiply;
+
+}
+.bluen1{
+  width:15vw;
+  height:15vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  transform:translateX(-5vw) translateY(-6vw);
+  mix-blend-mode: multiply;
+}
+.redn2{
+display:none;
+}
+
+.bluen2{
+  width:10vw;
+  height:10vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  position:absolute;
+  right:4vw;
+  top:38vw;
+}
+
+.redn3{
+  width:13vw;
+  height:13vw;
+  border-radius: 50%;
+  background-color: #d54640;
+  position:absolute;
+  right:7vw;
+  top:52vw;
+  mix-blend-mode: multiply;
+}
+
+.bluen3{
+  width:15vw;
+  height:15vw;
+  border-radius: 50%;
+  background-color: #6274be;
+  position:absolute;
+  right:14vw;
+  top:58vw;
+  mix-blend-mode: multiply;
+  margin-bottom:8vw;
+}
+.slogan{
+  font-size: 35px;
+  color:#d54640;
+  font-weight: 500;
+}
+.br-sp{
+  display:none;
+}
+  @media (max-width: 768px) {
+    body{
+      /* width:100%; */
+      font-family: 'Zen Kaku Gothic New' ;
+      /* overflow: hidden; */
+    }
+  
+
+    .br-sp{
+      display:block;
+  }
+
+    .container {
+      align-items: center;
+      position: relative;
+      text-align: center;
+      height:auto;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 0;
+      margin-top:0;
+    }
+    p {
+      font-size: 14px;
+      line-height: 4;
+      margin: 0;
+    }
+    .container2{
+      display:flex;
+      justify-content: space-between;
+      margin-top:30px;
+      margin-bottom:20px;
+      position:relative;
+      align-items:center;
+      height:100vw;
+      overflow-x: hidden;
+      
+    }
+    .kaidate1{
+      width:12vw;
+      position:relative;
+    }
+    .kaidate2{
+      position:absolute;
+      width:50vw;
+      height:45vw;
+      border-radius: 50%;
+      background-color:#6274be;
+      left:-35vw;
+      top:-50vw;
+    }
+    .kaimoji{
+      width:75vw;
+      text-align: center;
+      justify-content: center;
+
+    }  
+    .kaimoji p{
+      margin:25px;
+      font-size:14px;
+    line-height: 1.5;
+    }
+    .kaibasyo1{
+      width:12vw;
+      position: relative;
+    }
+    .kaibasyo2{
+      position:absolute;
+      width:50vw;
+      height:45vw;
+      border-radius: 50%;
+      background-color:#d54640;
+      right:-35vw;
+      bottom:-50vw;
+    }
+    
+    .circle {
+      border-radius: 50%;
+      position:absolute;
+    }
+  
+    .blue1 {
+      display:none;
+      }
+  
+    .red1 {
+      display:none;
+    }
+  
+    .blue2{
+      background-color: #6274be;
+      width:5vw;
+      height:5vw;
+      right:3vw;
+      top:92vw;
+    }
+    .red2{
+      background-color: #d54640;
+      width:7.5vw;
+      height:7.5vw;
+      right:9vw;
+      top:101vw;
+    }
+    .blue3{
+      background-color: #6274be;
+      width:8vw;
+      height:8vw;
+      right:19vw;
+      top:106vw;
+      mix-blend-mode: multiply;
+    }
+    .red3{
+      background-color: #d54640;
+      width:9vw;
+      height:9vw;
+      right:24vw;
+      top:107vw;
+      mix-blend-mode: multiply;
+    }
+    .slogan{
+      font-size: 16px;
+      color:#d54640;
+      font-weight: 600;
+    }
+    .rinku p{
+      font-size:14px;
+    }
+    .rinku{
+      width: 60vw;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size:14px;
+      
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 40vh;
+      position: relative;
+      text-align: center;
+      padding: 0 20px;
+      margin-top:120px;
+    }
+    .circle-column {
+      position: absolute;
+      height:300px;
+      transform: rotate(0deg);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      right:3%
+    }
+ 
+    .container3{
+      display:flex;
+      font-size: 40px;
+      /* width:auto; */
+      margin-top: 40px;
+      overflow-x: hidden;
+  
+    }
+    .redn2{
+    display:none;
+    }
+    
+    .bluen2{
+      width:8vw;
+      height:8vw;
+      border-radius: 50%;
+      background-color: #6274be;
+      position:absolute;
+      right:5vw;
+      top:185vw;
+    }
+    
+    .redn3{
+      width:10vw;
+      height:10vw;
+      border-radius: 50%;
+      background-color: #d54640;
+      position:absolute;
+      right:7vw;
+      top:195vw;
+      mix-blend-mode: multiply;
+    }
+    
+    .bluen3{
+      width:12vw;
+      height:12vw;
+      border-radius: 50%;
+      background-color: #6274be;
+      position:absolute;
+      right:12vw;
+      top:200vw;
+      mix-blend-mode: multiply;
+      margin-bottom:400px;
+    }
+    
+    .dodeka-container{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 16vw;
+    }
+     
+  }
