@@ -322,6 +322,7 @@ min-width:28vw;
     transition: background-color 0.3s ease;
     position:relative;
     font-family:'Zen Kaku Gothic New';
+    color:#222222;
   }
   
   .accordion-header:hover {
@@ -551,6 +552,7 @@ min-width:28vw;
         transition: background-color 0.3s ease;
         position:relative;
         font-family:'Zen Kaku Gothic New';
+        color:#222222;
       }
       
       .icon-arrow::before{
