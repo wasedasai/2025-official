@@ -421,6 +421,7 @@ body {
   margin: 0 auto; /* 中央揃え */
   left: 0; /* 不要な位置指定をリセット */
   right: 0; /* 不要な位置指定をリセット */
+  cursor: pointer;
 }
 
 .box {
@@ -626,6 +627,7 @@ body {
   .square-link {
     margin-top: 8vw;
     font-size: 3.5vw;
+    overflow: visible;
   }
   .policy-text {
     font-size: 14px;
