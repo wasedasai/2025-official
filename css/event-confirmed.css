@@ -36,7 +36,7 @@ body{
   }
 
   .content {
-    max-width: 930px;
+    max-width: 950px;
     
   }
 
@@ -47,7 +47,7 @@ body{
   }
 
   p {
-    font-size: 28px;
+    font-size: 27px;
     line-height: 2;
     margin: 0;
   }
@@ -179,10 +179,10 @@ body{
   margin-bottom: 13vw;
 }
 .marujou{
-  width: 33vw;
+  width: 26vw;
 }
 .rinku{
-  width:33vw;
+  width:48vw;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -199,7 +199,7 @@ body{
   display:inline-block;
 }
 .marusan{
-  width:33vw;
+  width:26vw;
   position:relative;
 }
 .redn1{
