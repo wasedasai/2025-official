@@ -421,7 +421,6 @@ body {
   margin: 0 auto; /* 中央揃え */
   left: 0; /* 不要な位置指定をリセット */
   right: 0; /* 不要な位置指定をリセット */
-  transform: none; /* 変形をリセット */
 }
 
 .box {
@@ -433,6 +432,14 @@ body {
   box-sizing: border-box;
   position: relative;
   transition: transform 0.3s ease;
+}
+.box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* アニメーションを設定 */
+}
+
+.box:hover {
+  transform: scale(1.05); /* 拡大 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
 }
 
 .box img {
@@ -453,6 +460,7 @@ body {
   color: #222222;
   margin: 0;
   font-weight: 500;
+  bottom: 25px;
 }
 .box h5 {
   position: absolute;
@@ -620,6 +628,7 @@ body {
 
   .waseda-title {
     font-size: 6.5vw;
+    overflow-y: hidden;
   }
 
   .left-square {
@@ -693,18 +702,24 @@ body {
     display: flex;
     flex-wrap: wrap; /* ボタンを折り返す */
     justify-content: center; /* 中央揃え */
-    padding: 5vh 5vw; /* パディングを調整 */
+    padding: 5vw 5vw; /* パディングを調整 */
   }
 
   .box {
     width: 25vw;
     height: 25vw;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center;
   }
   .box img {
     display: none; /* SP版で非表示 */
   }
   .box p {
     font-size: 3vw;
+  }
+  .box h5 {
+    font-size: 2.5vw;
   }
   .blue-circle-left {
     background-color: #6274be;
