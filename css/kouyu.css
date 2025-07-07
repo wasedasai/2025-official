@@ -110,7 +110,7 @@ body {
 .qr-code {
     width: 200px;
     height: 200px;
-    background-color: gray;
+    border: #000 1px solid;
 }
 .url-imformation {
     width: 50vw;
@@ -197,7 +197,7 @@ body {
     background-color: #ffffff   ;
 }
 .footer-menu-list li {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 .footer-sns-icon {
     background-color: #ffffff;
@@ -218,6 +218,7 @@ body {
 footer {
     width: 100vw;
     overflow-x: hidden;
+    background-color: #ffffff;
 }
 .footer-blue-decoration img {
     background-color: #6274be !important;
@@ -325,7 +326,7 @@ footer {
 .qr-code-sp {
   width: 149px;
   height: 149px;
-  background-color: gray;
+  border: #000 1px solid;
 }
 
 /* URL 部分 */

@@ -462,24 +462,11 @@ height: 50px;
   }
 }
 /* ここまでブロックタイトル */
-.menu-list li {
-    background-color: #ffffff   ;
-}
-.footer-menu-list li {
-    background-color: #ffffff;
-}
-.footer-menu-list li {
-    background-color: #ffffff;
-}
-.footer-sns-icon {
-    background-color: #ffffff;
-}
-.footer-sns-container {
-    background-color: #ffffff;
-}
+
 footer {
     width: 100vw;
     overflow-x: hidden;
+    /* background-color: #ffffff; */
 }
 .footer-blue-decoration img {
     background-color: #6274be !important;
@@ -490,12 +477,7 @@ footer {
 .pc {
     display: block;
 }
-.sns-text-box {
-    background-color: #ffffff !important;
-}
-.sns-area {
-    background-color: #ffffff !important;
-}
+
 @media (max-width: 1250px) {
 .swiper-slide {
     height: 700px !important;
