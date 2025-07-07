@@ -200,10 +200,10 @@ body {
 .footer-menu-list li {
 }
 .footer-sns-icon {
-    background-color: #ffffff;
+
 }
 .footer-sns-container {
-    background-color: #ffffff;
+
 }
 .footer-sns-text-box {
     background-color: #ffffff;
@@ -221,7 +221,7 @@ footer {
     background-color: #ffffff !important;
 }
 .footer-blue-decoration img {
-    background-color: #6274be !important;
+    /* background-color: #6274be !important; */
 }
 
 @media (max-width: 768px) {
@@ -269,7 +269,7 @@ footer {
     font-size: 20px;
 }
 .table {
-    grid-template-columns: repeat(2, 148px); /* 横2列、幅100pxずつ */
+    grid-template-columns: repeat(2, 34.5vw); /* 横2列、幅100pxずつ */
     grid-template-rows: repeat(2, 40px);     /* 縦2行、高さ40pxずつ */
     margin-top: 20px;
 }
