@@ -40,7 +40,7 @@ body {
     line-height: 2;
 }
 .hosomoji {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 400;
 }
 /* ここから協賛スライド */ 
@@ -665,5 +665,8 @@ footer {
 }
 .aisatsu-sentence {
     margin-top: 30px;
+}
+.gatsunosyuusei {
+    margin-top: 0;
 }
 }
