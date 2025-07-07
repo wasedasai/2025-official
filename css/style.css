@@ -1,0 +1,763 @@
+/* ここからブロックタイトル */
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-square {
+  width: 12px;
+  height: 13px;
+  background-color: #6274be;
+  margin-right: 28px;
+}
+.right-square {
+  width: 12px;
+  height: 13px;
+  background-color: #d54640;
+  margin-left: 28px;
+}
+.waseda-title {
+  font-weight: 450;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+/* ここまでブロックタイトル */
+
+/* ここからタイトル */
+.line-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-title-content {
+  font-weight: 500;
+  font-size: 45px;
+}
+.left-line {
+  width: 78px;
+  height: 1px;
+  background-color: #000;
+  margin-right: 28px;
+}
+.right-line {
+  width: 78px;
+  height: 1px;
+  background-color: #000;
+  margin-left: 28px;
+}
+/* ここまでタイトル */
+
+/* ここからブロックタイトル */
+.blockTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.blockTitleBar {
+  width: 9px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.blockRed {
+  background-color: #222222;
+}
+
+.blockBlue {
+  background-color: #6274be;
+}
+
+.blockYellow {
+  background-color: #f8b945;
+}
+
+.blockTitle {
+  font-size: 22px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.blockTitle-small {
+  font-size: 24px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.blockTitleBar-small {
+  width: 7px;
+  height: 26px;
+  border-radius: 3px;
+  gap: 5px;
+}
+
+@media (max-width: 500px) {
+  .blockTitleContainer {
+    gap: 5px;
+  }
+
+  .blockTitleBar {
+    width: 6px;
+    height: 20px;
+    border-radius: 3px;
+  }
+
+  .blockTitle {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+}
+/* ここまでブロックタイトル */
+
+/* グローバル設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  background-color: #fbfbfb; /* 背景色: #FBFBFB */
+  color: #222222; /* 黒色: #222222 */
+  overflow-x: hidden;
+}
+
+/* メインコンテンツ */
+/* section */
+.main-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 高さ調整 */
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.gaiyou-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/*ここまで section */
+.main-content .circle {
+  position: absolute;
+  border-radius: 1000px 1000px 0 0;
+}
+
+.main-content .blue {
+  width: 20vw; /* 350pxをvwに換算 */
+  height: 35vw; /* 450pxをvhに換算 */
+  background-color: #6274be; /* 赤色 */
+  mix-blend-mode: multiply;
+  left: 0%;
+  top: 45%;
+  transform: rotate(90deg);
+  transform: translateX(
+    -100px
+  ); /* 初期位置を右にずらし、左側にborder-radiusが来るように調整 */
+  opacity: 0; /* 初期状態で透明 */
+  animation: slideInRight-blue 3s ease-out forwards; /* アニメーション適用 */
+}
+.red-small {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-color: #d54640; /* 赤色 */
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+  left: 15%;
+  top: 35%;
+  opacity: 0; /* 初期状態で透明 */
+  transform: translateX(100px); /* 初期位置を右にずらす */
+  animation: slideInRight 2s ease-out 0.5s forwards; /* アニメーション適用、0.5秒遅延 */
+}
+.main-content .red {
+  position: absolute; /* 必要に応じて追加 */
+  width: 20vw; /* 350pxをvwに換算 */
+  height: 35vw; /* 450pxをvhに換算 */
+  background-color: #d54640; /* 赤色 */
+  right: 0%;
+  top: 0%;
+  mix-blend-mode: multiply; /* 乗算 */
+  transform: translateX(
+    100px
+  ); /* 初期位置を右にずらし、左側にborder-radiusが来るように調整 */
+  opacity: 0; /* 初期状態で透明 */
+  animation: slideInRight 3s ease-out forwards; /* アニメーション適用 */
+}
+
+.blue-small {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-color: #6274be; /* 青色 */
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+  right: 15%;
+  top: 35%;
+  opacity: 0; /* 初期状態で透明 */
+  transform: translateX(100px); /* 初期位置を右にずらす */
+  animation: slideInRight 2s ease-out 0.5s forwards; /* アニメーション適用、0.5秒遅延 */
+}
+
+/* アニメーション定義 */
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); /* 右からスタート */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* 元の位置に戻る */
+    transform: rotate(
+      -90deg
+    ); /* 初期位置を右にずらし、左側にborder-radiusが来るように調整 */
+  }
+}
+@keyframes slideInRight-blue {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); /* 右からスタート */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* 元の位置に戻る */
+    transform: rotate(
+      90deg
+    ); /* 初期位置を右にずらし、左側にborder-radiusが来るように調整 */
+  }
+}
+
+.main-content .text {
+  position: relative;
+  z-index: 1;
+  font-size: 36px;
+  font-weight: bold;
+  color: #222222; /* 黒色 */
+  writing-mode: vertical-rl; /* 縦書き */
+  transform: rotate(0deg); /* 正しい向きに修正 */
+  letter-spacing: 8px; /* 文字間隔を広げる */
+}
+.text {
+  opacity: 0; /* 初期状態で透明 */
+  transform: translateY(20px); /* 少し下に配置 */
+  animation: fadeIn 2s ease-out forwards; /* アニメーション適用 */
+}
+
+/* アニメーション定義 */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* 下から上に移動 */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* 元の位置に戻る */
+  }
+}
+
+/* カウントダウンボックス全体 */
+.notification-box {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 30vw;
+  height: 20vw;
+  border: 2px solid #222222; /* 線の色と太さ */
+  background-color: #ffffff; /* 内部の背景色 */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 50px 0 0 0;
+  overflow-y: hidden;
+  transition: position 0.3s ease, visibility 0.3s ease; /* フェードアウト用 */
+} /* スクロール時にスムーズに動かす */
+
+.countdown-text {
+  font-size: 3vw;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 左寄せから中央寄せに変更 */
+  text-align: center; /* 中央揃え */
+  overflow-y: hidden;
+}
+
+.left-days-text {
+  display: flex;
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: center; /* 横方向の中央揃え */
+  position: relative; /* 子要素の絶対位置を基準にする */
+  overflow-y: hidden;
+}
+
+.days-wasedasai {
+  font-size: 2.8vw;
+  font-weight: 450;
+  color: #222222;
+  margin: 0;
+  letter-spacing: 1.5px;
+  position: relative; /* 必要に応じて微調整 */
+  top: 5px; /* 上下位置を調整 */
+  overflow-y: hidden;
+}
+
+.day-number {
+  font-size: 7vw;
+  font-weight: 500;
+  color: #222222;
+  margin: 0;
+  letter-spacing: 0.6vw;
+  position: relative; /* 必要に応じて微調整 */
+  top: 0; /* 上下位置を調整 */
+}
+
+.days-count {
+  font-size: 2.6vw;
+  font-weight: medium;
+  color: #222222;
+  margin: 10px 0;
+  position: relative; /* 必要に応じて微調整 */
+  top: 24px; /* 上下位置を調整 */
+  overflow-y: hidden;
+}
+
+/* square-linkの親要素にposition: relative;を追加 */
+.square-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #222222;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+.square-link::after {
+  content: "";
+  display: block;
+  width: 15vw; /* 下線の長さを15vwに設定 */
+  height: 2px; /* 下線の太さ */
+  background-color: #222222; /* 下線の色 */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) skewX(15deg); /* 中央に配置し、右側を15度曲げる */
+  bottom: -5px;
+}
+
+/* 開催概要 */
+.gaiyou-logo {
+  width: 26vw; /* 幅を200pxに設定 */
+  height: auto; /* アスペクト比を維持 */
+  margin: 0.2vh 0;
+}
+.gaiyou-dates {
+  font-weight: 500;
+  color: #222222;
+  letter-spacing: 2px;
+}
+
+.month {
+  font-size: 80px;
+}
+
+.month-name {
+  font-size: 45px;
+}
+
+.day {
+  font-size: 80px;
+}
+
+.day-name {
+  font-size: 45px;
+}
+
+.weekday {
+  font-size: 40px;
+}
+
+.gaiyou-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #222222;
+  gap: 8px;
+}
+
+.location-icon {
+  font-size: 18px;
+}
+/* 初期状態 */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px); /* 少し下にずらす */
+  transition: opacity 2s ease, transform 2s ease; /* 時間を1秒に変更 */
+}
+
+/* 表示時の状態 */
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0); /* 元の位置に戻す */
+}
+/* ボタン一覧 */
+.button-container {
+  display: grid; /* gridレイアウトを使用 */
+  grid-template-columns: repeat(3, 1fr); /* 1行に3つの箱 */
+  grid-gap: 20px; /* ボックス間の隙間 */
+  padding: 15vh 18vw;
+  margin: 0 auto; /* 中央揃え */
+  left: 0; /* 不要な位置指定をリセット */
+  right: 0; /* 不要な位置指定をリセット */
+}
+
+.box {
+  height: 20vw; /* 高さを固定 */
+  width: 20vw;
+  border: 1px solid #222222;
+  background-color: #ffffff; /* 背景色を白で塗りつぶし */
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* アニメーションを設定 */
+}
+
+.box:hover {
+  transform: scale(1.05); /* 拡大 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+.box img {
+  width: 12vw;
+  height: auto;
+  object-fit: cover;
+  position: absolute; /* 画像がテキストの下に表示されるように */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%); /* 画像を中央に配置 */
+}
+.box p {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: #222222;
+  margin: 0;
+  font-weight: 500;
+  bottom: 25px;
+  width: 100%; /* ← これ追加 */
+}
+.box h5 {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  color: #222222;
+  margin: 0;
+  font-weight: 500;
+  width: 100%;
+}
+.box h6 {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  color: #222222;
+  margin: 0;
+  font-weight: 500;
+  width: 100%;
+}
+.only-sp {
+  display: none;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.red-circle {
+  background-color: #d54640;
+  width: 16vw;
+  height: 16vw;
+  right: 0vw;
+  top: 16vw;
+  mix-blend-mode: multiply;
+}
+
+.blue-circle {
+  background-color: #6274be; /* 赤 */
+  width: 20vw;
+  height: 20vw;
+  right: 0;
+}
+.blue-circle-left {
+  background-color: #6274be;
+  width: 12vw;
+  height: 12vw;
+  left: 0vw;
+  top: 32vw;
+}
+.red-circle-left {
+  background-color: #d54640; /* 赤 */
+  width: 18vw;
+  height: 18vw;
+  left: 0;
+  mix-blend-mode: multiply;
+  top: 40vw;
+}
+
+/* 人生につながろううんちゃら */
+.policy-title {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.main-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #222222; /* Redish color */
+  margin-bottom: 9vh;
+}
+
+.policy-text {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.policy-box {
+  margin-bottom: 5vh;
+}
+.gaiyou-logo-small {
+  width: 7vw; /* 幅を200pxに設定 */
+  height: auto; /* アスペクト比を維持 */
+  margin: 4vh 0;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  .main-content .blue {
+    width: 45vw; /* 350pxをvwに換算 */
+    height: 45vw; /* 450pxをvhに換算 */
+    left: 0%;
+    top: 75%;
+  }
+  .red-small {
+    width: 30vw;
+    height: 30vw;
+    left: 25%;
+    top: 70%;
+  }
+  .main-content .red {
+    width: 40vw; /* 350pxをvwに換算 */
+    height: 40vw; /* 450pxをvhに換算 */
+    right: 0%;
+    top: 6%;
+  }
+
+  .blue-small {
+    width: 30vw;
+    height: 30vw;
+    right: 20%;
+    top: 16%;
+  }
+  .main-content .text {
+    margin-top: 4vw;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 8px; /* 文字間隔を広げる */
+  }
+  .notification-box {
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
+    width: 37vw;
+    height: 60vw;
+    border: 1px solid #222222; /* 線の色と太さ */
+    background-color: #ffffff; /* 内部の背景色 */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 50px 0 0 0;
+    overflow-y: hidden;
+    transition: position 0śs ease, visibility 0.3s ease; /* フェードアウト用 */
+  }
+
+  .days-wasedasai {
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    position: relative; /* 必要に応じて微調整 */
+    top: -30px; /* 上下位置を調整 */
+    overflow-y: hidden;
+  }
+
+  .day-number {
+    font-size: 10vw;
+    font-weight: 500;
+    letter-spacing: 0.4vw;
+    position: relative; /* 必要に応じて微調整 */
+    top: 3px; /* 上下位置を調整 */
+  }
+
+  .days-count {
+    font-size: 4vw;
+    position: relative; /* 必要に応じて微調整 */
+    top: 10px; /* 上下位置を調整 */
+  }
+  .square-link {
+    margin-top: 8vw;
+    font-size: 3.5vw;
+  }
+  .policy-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    display: block;
+  }
+  .gaiyou-logo-small {
+    width: 20vw;
+    margin: 2vh;
+  }
+  .title {
+    margin-top: 1vh;
+    margin-bottom: 50px;
+  }
+
+  .waseda-title {
+    font-size: 6.5vw;
+    overflow-y: hidden;
+  }
+
+  .left-square {
+    width: 8px;
+    height: 8px;
+    background-color: #6274be;
+    margin-right: 20px;
+  }
+  .right-square {
+    width: 8px;
+    height: 8px;
+    background-color: #d54640;
+    margin-left: 20px;
+  }
+
+  .line-title {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .line-title h1 {
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .left-line {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    margin-right: 15px;
+  }
+  .right-line {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 15px;
+  }
+  .gaiyou-logo {
+    width: 50vw;
+  }
+  .month {
+    font-size: 45px;
+  }
+
+  .month-name {
+    font-size: 24px;
+  }
+
+  .day {
+    font-size: 42px;
+  }
+
+  .day-name {
+    font-size: 24px;
+  }
+
+  .weekday {
+    font-size: 24px;
+  }
+  .gaiyou-location {
+    font-size: 4vw;
+  }
+  .map-icon {
+    width: 3vw;
+  }
+  .main-title {
+    font-size: 6vw;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* ボタンを折り返す */
+    justify-content: center; /* 中央揃え */
+    padding: 5vw 5vw; /* パディングを調整 */
+  }
+
+  .box {
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center;
+  }
+  .box img {
+    display: none; /* SP版で非表示 */
+  }
+  .box p {
+    font-size: 3vw;
+    bottom: 30%;
+  }
+  .box h6 {
+    font-size: 3vw;
+    bottom: 40%;
+  }
+  .box h5 {
+    font-size: 2.5vw;
+    bottom: 35%;
+  }
+  .only-sp {
+    display: inline;
+  }
+  .blue-circle-left {
+    background-color: #6274be;
+    width: 10vw;
+    height: 10vw;
+    left: 0vw;
+    top: 60vw;
+  }
+  .red-circle-left {
+    background-color: #d54640; /* 赤 */
+    width: 16vw;
+    height: 16vw;
+    left: 0;
+    top: 65vw;
+  }
+}
