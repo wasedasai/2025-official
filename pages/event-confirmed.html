@@ -24,15 +24,78 @@
         <meta name="google-site-verification" content="PREUoAvDPGm4IBv_BUsNCwKUSFRjLSaLSSNL8bfFCAE" />
     </head>
     <body>
+      <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="../index.html" class="header-logo">
+                    <img src="../img/aoto-transparent.png" alt="早稲田祭2025 公式サイト">
+                <!-- <p>早稲田祭<span style="margin-left: 10px;">2025</span></p> -->
+                </a>
+            </div>
+            
+        </div>
+        <div class="hamburger-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+        </div>
+    </header>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="menu-head">
+            <a href="../index.html" class="menu-logo">
+            <img src="../img/logo.png" alt="早稲田祭2025">
+            <!-- <p>早稲田祭&nbsp;<span>2025</span></p> -->
+            </a>
+        </div>
+        <ul class="menu-list">
+            <li><a href="../pages/event-confirmed.html">開催概要</a></li>
+            <li><a href="../pages/kouyu.html">校友の皆様へ</a></li>
+            <li><a href="../pages/company.html">企業の皆様へ</a></li>
+            <li><a href="../pages/slogan-logo.html">キャッチコピーロゴについて</a></li>
+            <li><a href="https://wasedasai.github.io/25-sansan/">参加団体・参加者募集サイト</a></li>
+            <li class="short-line"><a href="../pages/themesong.html">テーマソング募集</a></li>
+        </ul>
+        <div class="sns-area">
+            <a href="https://www.instagram.com/wasedasai/" target="_blank" aria-label="Instagram">
+            <img src="../img/Instagram-logo.png" alt="" />
+            </a>
+            <a href="https://twitter.com/wasedasai" target="_blank" aria-label="X">
+            <img src="../img/X-logo.png" alt="" />
+            </a>
+            <div class="sns-text-box">
+                <p>公式SNS</p>
+                <div class="sns-line"></div>
+            </div>
+        </div>
+    </nav>
+    <script>
+    const hamburger = document.querySelector('.hamburger-container');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const closeBtn   = document.getElementById('closeBtn');
+
+    function toggleMenu(){
+        hamburger.classList.toggle('open');
+        mobileMenu.classList.toggle('open');
+    }
+
+    hamburger.addEventListener('click', toggleMenu);
+    closeBtn.addEventListener('click', toggleMenu);
+    </script>
+    <!-- ここまでヘッダー -->
 
   <div class="container">
      <div class="content">
-      <h1>早稲田祭2025 開催のお知らせ</h1>
+      <div class="taitoru1">
+      <div class="left-square1"></div>
+      <h1>早稲田祭2025<br class="br-sp"> 開催のお知らせ</h1>
+      <div class="right-square1"></div>
+      </div>
       <p>
-        年に一度、「早稲田」に関わるあらゆる人の思い、情熱がつながる祭<br>
+        年に一度、「早稲田」に関わる<br class="br-sp">あらゆる人の想い、情熱がつながる祭<br>
         それが「早稲田祭2025」です。<br>
-        早稲田祭2025のキャッチコピーは「人生に、つながろう」<br>
-        早稲田の誇る「早稲田文化」で満ち溢れた祭を、ぜひお楽しみください。
+        早稲田祭2025のキャッチコピーは<br>
+         <span class="slogan">「人生に、つながろう」</span><br>
+        早稲田の誇る「早稲田文化」で満ちあふれた祭を、<br class="br-sp">ぜひお楽しみください。
       </p>
      </div>
     <div class="circle-column">
@@ -47,30 +110,33 @@
     </div>
   </div>
   <div class="container2">
-    <div class="kaidate"><p class="kaise">開催日時</p></div>
-    <div class="kaimoji"><p>11月1日（土）、11月2日(日)</p></div>
+    <div class="kaidate1">
+      <div class="kaidate2"></div>
+    </div>
+    <div class="kaimoji">
+      <p>【開催日時】<br>11月1日（土）、11月2日(日)</p>
+      <p>【開催場所】<br>早稲田キャンパス・戸山キャンパス<br>周辺地域</p>
+      <p>【主催】<br>早稲田祭2025運営スタッフ</p>
+    </div>
+    <div class="kaibasyo1">
+      <div class="kaibasyo2"></div>
+    </div>
   </div>
-  <div class="container3">
-    <div class="basyomoji"><p>早稲田キャンパス・戸山キャンパス<br>周辺地域</p></div>
-    <div class="kaibasyo"><p class="baise">開催場所</p></div>
-  </div>
-  <div class="container4">
-    <p>【主催】<br>早稲田祭2025運営スタッフ</p>
-  </div>
+
   <div class="dodeka-container">
     <div class="marujou">
       <div class="redn1"></div>
       <div class="bluen1"></div>
     </div>
     <div class="rinku">
-      <p>【公式X】</p><a href="">@wasedasai</a>
-      <p>【公式Facebook】</p><a href="">https://www.facebook.com/wasedasai.official</a>
-      <p>【公式Instagram】</p><a href="">@wasedasai</a>
-      <p>【公式YouTubeチャンネル】</p><a href="">https://www.youtube.com/user/WasedasaiOfficial/about</a>
-      <p>【公式TikTok】</p><a href="">@wasedasai</a>
-      <p>【「わせだサイくん」公式X】</p><a href="">@wasedasai_kun</a>
-      <p>【お問い合わせ】</p><p>担当者：吉田詩</p><p></p><a href=""><span class="text-black">E-mail：</span>info@wasedasai.net</a>
-      <p>【取材に関するお問い合わせ】</p><p>担当者：沖野紘人</p><a href=""><span class="text-black">E-mail：</span>media@wasedasai.net</a>
+      <p>【公式X】</p><a href="https://twitter.com/wasedasai">@wasedasai</a>
+      <p>【公式Facebook】</p><a href="https://www.facebook.com/wasedasai.official">https://www.facebook.com/wasedasai.official</a>
+      <p>【公式Instagram】</p><a href="https://www.instagram.com/wasedasai/">@wasedasai</a>
+      <p>【公式YouTubeチャンネル】</p><a href="https://www.youtube.com/user/WasedasaiOfficial">https://www.youtube.com/user/WasedasaiOfficial/about</a>
+      <p>【公式TikTok】</p><a href="https://www.tiktok.com/@wasedasai">@wasedasai</a>
+      <p>【「わせだサイくん」公式X】</p><a href="https://x.com/wasedasai_kun">@wasedasai_kun</a>
+      <p>【お問い合わせ】</p><p>担当者：吉田詩</p><p></p><a href="mailto:info@wasedasai.net"><span class="text-black">E-mail：</span>info@wasedasai.net</a>
+      <p>【取材に関するお問い合わせ】</p><p>担当者：沖野紘人</p><a href="mailto:media@wasedasai.net"><span class="text-black">E-mail：</span>media@wasedasai.net</a>
 
     </div>
     <div class="marusan">
@@ -80,6 +146,39 @@
       <div class="bluen3"></div>
     </div>
   </div>
+  <footer>
+    <div class="footer-logo-container">
+        <div class="footer-blue-decoration">
+            <img src="../img/blue-logo.png" alt="">
+        </div>
+        <div class="footer-red-decoration"></div>
+    </div>
+    <div class="footer-menu-container">
+        <ul class="footer-menu-list">
+            <li><a href="../pages/event-confirmed.html">開催概要</a></li>
+            <li><a href="../pages/kouyu.html">校友の皆様へ</a></li>
+            <li><a href="../pages/company.html">企業の皆様へ</a></li>
+            <li><a href="../pages/slogan-logo.html">キャッチコピー<br>ロゴについて</a></li>
+            <li><a href="../pages/themesong.html">テーマソング<br>募集について</a></li>
+            <li><a href="https://wasedasai.github.io/25-sansan/">参加団体・参加者<br>募集サイト</a></li>
+        </ul>
+    </div>
+    <div class="footer-sns-container">
+        <div class="footer-sns-icon">
+            <a href="https://www.instagram.com/wasedasai/" target="_blank" aria-label="Instagram">
+                <img src="../img/Instagram-logo.png" alt="" />
+            </a>
+            <a href="https://twitter.com/wasedasai" target="_blank" aria-label="X">
+                <img src="../img/X-logo.png" alt="" />
+            </a>
+        </div>
+        <div class="footer-sns-text-box">
+            <div class="footer-sns-line"></div>
+            <p>公式SNS</p>
+        </div>
+    </div>
+</footer>
+<!-- ここまでフッター -->
 
     </body>
 </html>

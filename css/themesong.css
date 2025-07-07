@@ -3,6 +3,24 @@ body{
     overflow-x: hidden;
     background-color: #fbfbfb;
   }
+  .taitoru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .left-square {
+    width: 12px;
+    height: 12px;
+    background-color: #6274be;
+    margin-right: 28px;
+}
+.right-square {
+    width: 12px;
+    height: 12px;
+    background-color: #d54640;
+    margin-left: 28px;
+}
 .temahako {
     display: flex;
     justify-content: center;
@@ -11,6 +29,7 @@ body{
     position: relative;
     text-align: center;
     padding: 0 20px;
+    margin-top:100px;
  }
  .content{
     width:55vw;
@@ -19,13 +38,13 @@ body{
 h1 {
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 30px;
   }
 
   p {
     font-size: 22px;
     line-height: 2;
     margin: 0;
+    color:#222222;
   }
   .circle-hako1{
     position: absolute;
@@ -46,6 +65,11 @@ h1 {
     gap: 30px;
     align-items: center;
     right:3%;
+}
+.temapic{
+    height:375px; 
+    width: auto;
+    margin: 50px;
 }
 .temaru{
     position:relative;
@@ -166,15 +190,22 @@ h1 {
   .title-line .line {
     flex: 1;
     height: 1px;
-    background-color: #1b1b1b;
+    background-color: #222222;
     max-width: 150px;
   }
-  
+  .title-line .line1 {
+    flex: 1;
+    height: 1px;
+    background-color: #222222;
+    max-width: 150px;
+  }
   .title-line h1 {
     font-size: 33px;
     font-weight: 500;
     white-space: nowrap;
+    color:#222222;
   }
+ 
   .honbun{
     text-align: center;
     margin-top:50px;
@@ -183,6 +214,7 @@ h1 {
     font-size: 22px;
     line-height: 1.8;
     margin-bottom: 1.2rem;
+    color:#222222;
   }
 
 .mokuhako{
@@ -268,6 +300,7 @@ min-width:28vw;
     font-size: 22px;
     line-height: 1.8;
     margin-bottom: 1.2rem;
+    color:#222222;
   }
   .accordion {
     margin: 0 auto;
@@ -283,7 +316,7 @@ min-width:28vw;
     padding: 1.2em;
     font-size: 33px;
     border: none;
-    border-bottom: 1px solid #1b1b1b;
+    border-bottom: 1px solid #222222;
     background-color: #fbfbfb;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -311,7 +344,7 @@ min-width:28vw;
 		height: 40px;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
-        border-top: 32px solid #1b1b1b; 
+        border-top: 32px solid #222222; 
         top:50px;
 	}
 	.icon-arrow::after {
@@ -334,6 +367,7 @@ min-width:28vw;
     }
     .pastsongs p{
         text-align:left;
+        color:#222222;
     }
   .entryrules{
     margin-top:30px;
@@ -344,6 +378,7 @@ min-width:28vw;
   .entryrules p{
     text-align: left;;
     font-size:20px;
+    color:#222222;
   }
   .futoji {
     padding: 1em;
@@ -368,7 +403,7 @@ min-width:28vw;
   .themeabstract p{
     font-size:20px;
     margin-bottom:1em;
-    color:#1b1b1b;
+    color:#222222;
   }
   .judging{
     margin:2em;
@@ -378,6 +413,7 @@ min-width:28vw;
   }
   .data p{
     text-align:left;
+    color:#222222;
   }
   .deadline{
     font-weight: 600;
@@ -387,6 +423,7 @@ min-width:28vw;
   }
   .way p{
     text-align:left;
+    color:#222222;
   }
   .midashi{
     font-weight: 600;
@@ -409,10 +446,33 @@ min-width:28vw;
  .attention p{
     margin:1em;
     text-align:left;
+    color:#222222;
  }
  .br-sp{
     display:none;
  }
+ .contactwhom{
+    font-size:22px;
+    font-weight: 420;
+    text-align:center;
+    color:#222222;
+    margin-top:6vw;
+ }
+ .contactwhom a{
+    color:#6274BE;
+    font-size:22px;
+    font-weight: 420;
+ }
+ .text-kuro{
+    color: #222222;
+    display:inline-block;
+  }
+  .way a{
+    color:#6274BE;
+  }
+  .data a{
+    color:#6274BE;
+  }
  @media (max-width: 768px) {
     .br-sp{
         display:block;
@@ -516,7 +576,7 @@ min-width:28vw;
 		margin-top: -1px;
 	}
     .accordion-content{
-        width:103%;
+        width:100%;
         font-size:14px;
     border-bottom: 1px solid #fbfbfb;
     background-color: #fbfbfb;
@@ -627,4 +687,147 @@ min-width:28vw;
         text-align:left;
         line-height:1.7;
      }
+     .temapic{
+        height:150px; 
+        width: auto;
+        margin: 40px;
+    }
+    .red1 {
+        width:clamp(17px,4vw,60px);
+        height:clamp(17px,4vw,60px);
+        background-color: #d54640;
+        position:absolute;
+        top: 12vw;
+        left:7vw;
+      }
+      .blue1{
+        width:clamp(15px, 3.5vw,110px);
+        height:clamp(15px, 3.5vw,110px);
+        background-color: #6274be;
+        position:absolute;
+        top: 37vw;
+        left:2vw;
+        mix-blend-mode: multiply;
+      }
+    
+      .red2{
+        width:clamp(15px, 3.5vw,110px);
+        height:clamp(15px, 3.5vw,110px);
+        background-color: #d54640;
+        position:absolute;
+        top: 38vw;
+        left:4vw;
+        mix-blend-mode: multiply;
+      }
+      .blue2{
+        width:6vw;
+        height:6vw;
+        background-color: #d54640;
+        position:absolute;
+        top: 60vw;
+        left:6vw;
+      }
+      .red3{
+        width:7vw;
+        height:7vw;
+        background-color: #d54640;
+        position:absolute;
+        top: 100vw;
+        left:1.5vw;
+        mix-blend-mode: multiply;
+      }
+      .blue3{
+        width:5.5vw;
+        height:5.5vw;
+        background-color: #6274be;
+        position:absolute;
+        top: 97vw;
+        left:4vw;
+        mix-blend-mode: multiply;
+      }
+      .aka1{
+        width:4vw;
+        height:4vw;
+        background-color: #d54640;
+        position:absolute;
+        top: 22vw;
+        right:10vw;
+      }
+      .ao1{
+        width:2vw;
+        height:2vw;
+        background-color: #6274be;
+        position:absolute;
+        top: 40vw;
+        right:4vw;
+      }
+      .ao2{
+        width:7vw;
+        height:7vw;
+        background-color: #6274be;
+        position:absolute;
+        top: 50vw;
+        right:10vw;
+      }
+      .ao3{
+        width:4vw;
+        height:4vw;
+        background-color: #6274be;
+        position:absolute;
+        top: 95vw;
+        right:8.5vw;
+      }
+      .aka2{
+        width:7vw;
+        height:7vw;
+        background-color: #d54640;
+        position:absolute;
+        top:55vw;
+        right:8.5vw;
+        mix-blend-mode: multiply;
+      }
+      .nani{
+        line-height:2.5;
+      }
+      .left-square {
+        width: 9px;
+        height: 9px;
+        background-color: #6274be;
+        margin-right: 5vw;
+    }
+    .right-square {
+        width: 9px;
+        height: 9px;
+        background-color: #d54640;
+        margin-left: 5vw;
+    }
+  .line1 {
+        display: none;
+      }
+      .content{
+        width:60vw;
+     }
+     .content{
+        width:55vw;
+        margin-bottom:35px;
+     }
+     .contactwhom{
+        font-size:14px;
+        font-weight: 410;
+        text-align:center;
+        color:#222222;
+        margin-top:6vw;
+     }
+     .contactwhom a{
+        color:#6274BE;
+        font-size:14px;
+        font-weight: 410;
+     }
+     .text-kuro{
+        color: #222222;
+        display:inline-block;
+      }
+      .way a{
+        color:#6274BE;
+      }
  }

@@ -1,6 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family:'Zen Kaku Gothic New';
   overflow-x: hidden;
+}
+.taitoru1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.left-square1 {
+  width: 12px;
+  height: 12px;
+  background-color: #6274be;
+  margin-right: 28px;
+}
+.right-square1 {
+  width: 12px;
+  height: 12px;
+  background-color: #d54640;
+  margin-left: 28px;
 }
 .container {
     display: flex;
@@ -10,6 +32,7 @@ body{
     position: relative;
     text-align: center;
     padding: 0 20px;
+    margin-top:90px;
   }
 
   .content {
@@ -20,7 +43,7 @@ body{
   h1 {
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 30px;
+
   }
 
   p {
@@ -96,76 +119,50 @@ body{
     top:38vw;
     mix-blend-mode: multiply;
   }
-  
-  .container2{
-    display:flex;
-    font-size: 40px;
-    width:100vw;
-    top:20px;
-    margin-bottom: 100px;
-  }
+.container2{
+  display:flex;
+  justify-content: space-between;
+  margin-top:50px;
+  margin-bottom:100px;
 
-  .kaidate{
-    width:52vw;
-    height:42vw;
-    border-radius: 50%;
-    background-color: #6274be;
-    transform:translateX(-7vw);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-.kaise{
-  font-size: 40px;
-  position: absolute;
-  color: #fbfbfb;
+}
+.kaidate1{
+  width:20vw;
+  position:relative;
+}
+.kaidate2{
+  position:absolute;
+  width:50vw;
+  height:35vw;
+  border-radius: 50%;
+  background-color:#6274be;
+  left:-40vw;
+  top:-10vw;
 }
 .kaimoji{
-  display:flex;
-  align-items: center;
+  width:58vw;
+  text-align: center;
   justify-content: center;
-  width:48vw;
-  height:42vw;
-}
+  align-items: center;
+}  
 .kaimoji p{
-  font-size: 42px;
+  margin:2em;
+  font-size:42px;
 }
-.container3{
-  display:flex;
-  font-size: 40px;
-  width:100vw;
-  top:20px;
-  margin-top: 30px;
+.kaibasyo1{
+  width:20vw;
+  position: relative;
 }
-
-.kaibasyo{
-  width:52vw;
-  height:42vw;
+.kaibasyo2{
+  position:absolute;
+  width:50vw;
+  height:35vw;
   border-radius: 50%;
-  background-color: #d54640;
-  transform: translateX(7vw);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color:#d54640;
+  right:-40vw;
+  bottom:-15vw;
+}
 
-}
-.baise{
-font-size: 40px;
-position: absolute;
-color: #fbfbfb;
-}
-.basyomoji{
-display:flex;
-align-items: center;
-justify-content: center;
-width:48vw;
-height:42vw;
-margin-left:3vw;
-}
-.basyomoji p{
-  font-size: 42px;
-}
 .container4{
   display:flex;
   justify-content: center;
@@ -179,6 +176,7 @@ margin-left:3vw;
 .dodeka-container{
   display:flex;
   justify-content: space-between;
+  margin-bottom: 13vw;
 }
 .marujou{
   width: 33vw;
@@ -222,13 +220,7 @@ margin-left:3vw;
   mix-blend-mode: multiply;
 }
 .redn2{
-  width:7vw;
-  height:7vw;
-  border-radius: 50%;
-  background-color: #d54640;
-  position:absolute;
-  right:5vw;
-  top:50vw;
+display:none;
 }
 
 .bluen2{
@@ -237,8 +229,8 @@ margin-left:3vw;
   border-radius: 50%;
   background-color: #6274be;
   position:absolute;
-  right:2vw;
-  top:62vw;
+  right:4vw;
+  top:38vw;
 }
 
 .redn3{
@@ -248,7 +240,7 @@ margin-left:3vw;
   background-color: #d54640;
   position:absolute;
   right:7vw;
-  top:75vw;
+  top:52vw;
   mix-blend-mode: multiply;
 }
 
@@ -259,11 +251,29 @@ margin-left:3vw;
   background-color: #6274be;
   position:absolute;
   right:14vw;
-  top:80vw;
+  top:58vw;
   mix-blend-mode: multiply;
+  margin-bottom:8vw;
 }
-
+.slogan{
+  font-size: 35px;
+  color:#d54640;
+  font-weight: 500;
+}
+.br-sp{
+  display:none;
+}
   @media (max-width: 768px) {
+    body{
+      /* width:100%; */
+      font-family: 'Zen Kaku Gothic New' ;
+      /* overflow: hidden; */
+    }
+  
+
+    .br-sp{
+      display:block;
+  }
 
     .container {
       align-items: center;
@@ -279,31 +289,58 @@ margin-left:3vw;
     }
     p {
       font-size: 14px;
-      line-height: 2;
+      line-height: 4;
       margin: 0;
     }
-    .kaise{
-      font-size: 14px;
-      position: absolute;
-      color: #fbfbfb;
+    .container2{
+      display:flex;
+      justify-content: space-between;
+      margin-top:30px;
+      margin-bottom:20px;
+      position:relative;
+      align-items:center;
+      height:100vw;
+      overflow-x: hidden;
+      
     }
-    .baise{
-      font-size: 14px;
-      position: absolute;
-      color: #fbfbfb;
-      }
-    .basyomoji p{
-        font-size: 14px;
-     }
+    .kaidate1{
+      width:12vw;
+      position:relative;
+    }
+    .kaidate2{
+      position:absolute;
+      width:50vw;
+      height:45vw;
+      border-radius: 50%;
+      background-color:#6274be;
+      left:-35vw;
+      top:-50vw;
+    }
+    .kaimoji{
+      width:75vw;
+      text-align: center;
+      justify-content: center;
+
+    }  
     .kaimoji p{
+      margin:25px;
       font-size:14px;
+    line-height: 1.5;
     }
-    .container4{
-    margin:2em;
+    .kaibasyo1{
+      width:12vw;
+      position: relative;
     }
-    .container4 p{
-      font-size: 14px;
+    .kaibasyo2{
+      position:absolute;
+      width:50vw;
+      height:45vw;
+      border-radius: 50%;
+      background-color:#d54640;
+      right:-35vw;
+      bottom:-50vw;
     }
+    
     .circle {
       border-radius: 50%;
       position:absolute;
@@ -321,30 +358,118 @@ margin-left:3vw;
       background-color: #6274be;
       width:5vw;
       height:5vw;
-      right:1vw;
-      top:120vw;
+      right:3vw;
+      top:92vw;
     }
     .red2{
       background-color: #d54640;
       width:7.5vw;
       height:7.5vw;
-      right:0vw;
-      top:130vw;
+      right:9vw;
+      top:101vw;
     }
     .blue3{
       background-color: #6274be;
       width:8vw;
       height:8vw;
-      right:5.5vw;
-      top:140vw;
+      right:19vw;
+      top:106vw;
       mix-blend-mode: multiply;
     }
     .red3{
       background-color: #d54640;
       width:9vw;
       height:9vw;
-      right:10vw;
-      top:145vw;
+      right:24vw;
+      top:107vw;
       mix-blend-mode: multiply;
     }
+    .slogan{
+      font-size: 16px;
+      color:#d54640;
+      font-weight: 600;
+    }
+    .rinku p{
+      font-size:14px;
+    }
+    .rinku{
+      width: 60vw;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size:14px;
+      
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 40vh;
+      position: relative;
+      text-align: center;
+      padding: 0 20px;
+      margin-top:120px;
+    }
+    .circle-column {
+      position: absolute;
+      height:300px;
+      transform: rotate(0deg);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      right:3%
+    }
+ 
+    .container3{
+      display:flex;
+      font-size: 40px;
+      /* width:auto; */
+      margin-top: 40px;
+      overflow-x: hidden;
+  
+    }
+    .redn2{
+    display:none;
+    }
+    
+    .bluen2{
+      width:8vw;
+      height:8vw;
+      border-radius: 50%;
+      background-color: #6274be;
+      position:absolute;
+      right:5vw;
+      top:185vw;
+    }
+    
+    .redn3{
+      width:10vw;
+      height:10vw;
+      border-radius: 50%;
+      background-color: #d54640;
+      position:absolute;
+      right:7vw;
+      top:195vw;
+      mix-blend-mode: multiply;
+    }
+    
+    .bluen3{
+      width:12vw;
+      height:12vw;
+      border-radius: 50%;
+      background-color: #6274be;
+      position:absolute;
+      right:12vw;
+      top:200vw;
+      mix-blend-mode: multiply;
+      margin-bottom:400px;
+    }
+    
+    .dodeka-container{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 16vw;
+    }
+     
   }
