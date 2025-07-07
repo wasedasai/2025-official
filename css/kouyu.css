@@ -1,0 +1,379 @@
+*{
+
+}
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #fbfbfb;
+}
+.goaisatsu {
+    width: 100vw;
+
+}
+.title {
+    font-size: 45px;
+}
+.line-title1 {
+    margin-top: 200px;
+    font-size: 36px;
+}
+.line-title-content {
+    font-size: 36px;
+}
+.goaisatsu-sentence {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 2;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.gosien-category {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 200px); /* 横2列、幅100pxずつ */
+    grid-template-rows: repeat(2, 62px);     /* 縦2行、高さ60pxずつ */
+    gap: 0.9px; /* 罫線のような隙間 */
+    background-color: #000; /* マス間の線の色 */
+    width: max-content;
+    margin: 0 auto;
+    border: #000 1px solid;
+    margin-top: 50px;
+}
+
+.cell {
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.cell-hoso {
+    font-weight: 400;
+}
+
+.goshien-sentence {
+    width: 70vw;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 2;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.simekiri1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.simekiri2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.linksyu {
+    width: 70vw;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.linksyu-category {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin-left: -15px;
+}
+.qr-category {
+    width: 20vw;
+    height: 50px;
+    font-size: 25px;
+}
+.url-category {
+    width: 50vw;
+    height: 50px;
+    font-size: 25px;
+}
+.linksyu-imformation {
+    width: 70vw;
+    height: 250px;
+    display: flex;
+}
+.qr-imformation {
+    width: 20vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.qr-code {
+    width: 200px;
+    height: 200px;
+    border: #000 1px solid;
+}
+.url-imformation {
+    width: 50vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 20px; */
+}
+.url-url {
+    font-size: 25px;
+    text-align: left;
+}
+.url-attention {
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: left;
+}
+.gohumeiten-container {
+    width: 70vw;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+.mail-icon {
+    width: 12vw;
+    height: 150px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mail-icon-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.gohumeiten-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 58vw;
+    height: 150px;
+    line-height: 2;
+}
+.gohumeiten-mail {
+    font-size: 25px;
+}
+.gohumeiten-imfo {
+    font-size: 22px;
+    font-weight: 500;
+}
+.owarini {
+    text-align: center;
+    margin-top: 80px;
+}
+.logo {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.blockTitleContainer {
+    width: 70vw !important;
+    margin-left: 0 ;
+    margin-right: 0 ;
+    margin: 0 auto ;
+    margin-top: 80px;
+}
+.sp {
+    display: none;
+}
+.pc {
+    display: inline;
+}
+.linksyu-sp {
+    display: none;
+}
+.mobile-menu {
+    background-color: #ffffff;
+}
+.menu-list li {
+    background-color: #ffffff   ;
+}
+.footer-menu-list li {
+}
+.footer-sns-icon {
+    background-color: #ffffff;
+}
+.footer-sns-container {
+    background-color: #ffffff;
+}
+.footer-sns-text-box {
+    background-color: #ffffff;
+}
+
+.sns-text-box {
+    background-color: #ffffff !important;
+}
+.sns-area {
+    background-color: #ffffff !important;
+}
+footer {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #ffffff !important;
+}
+.footer-blue-decoration img {
+    background-color: #6274be !important;
+}
+
+@media (max-width: 768px) {
+.sp {
+    display: inline;
+}
+.pc {
+    display: none;
+}
+.title {
+    margin-top: 120px;
+}
+.title-content{
+    font-size: 20px;
+}
+.left-square {
+    width: 6px;
+    height: 6px;
+}
+.right-square {
+    width: 6px;
+    height: 6px;
+}
+.line-title-content {
+    font-size: 25px;
+}
+.left-line {
+    width: 45px;
+    height: 1px;
+}
+.right-line {
+    width: 45px;
+    height: 1px;
+}
+.line-title1 {
+    margin-top: 60px;
+}
+.goaisatsu-sentence {
+    font-size: 13px;
+}
+.line-title-content {
+    text-align: center;
+}
+.gosien-category {
+    font-size: 20px;
+}
+.table {
+    grid-template-columns: repeat(2, 148px); /* 横2列、幅100pxずつ */
+    grid-template-rows: repeat(2, 40px);     /* 縦2行、高さ40pxずつ */
+    margin-top: 20px;
+}
+.cell-hoso {
+    font-size: 15px;
+}
+.goshien-sentence {
+    font-size: 14px;
+    padding-left: 0;
+    margin-top: 0px;
+}
+.simekiri1 {
+    font-size: 25px;
+}
+.simekiri2 {
+    font-size: 15px;
+}
+.linksyu {
+    display: none;
+}
+/* linksyu-sp.css */
+.linksyu-sp {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+/* ─── 左右カラム共通 ─── */
+.linksyu-left-sp,
+.linksyu-right-sp {
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* 見出し */
+.qr-category-sp,
+.url-category-sp {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-left: -10px;
+}
+
+/* QR 部分 */
+.qr-information-sp {
+  display: flex;
+
+  align-items: center;
+}
+.qr-code-sp {
+  width: 149px;
+  height: 149px;
+  border: #000 1px solid;
+}
+
+/* URL 部分 */
+.url-information-sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.url-url-sp {
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.url-attention-sp {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* ─── 画面幅 600px 未満で縦並び ─── */
+.linksyu-left-sp,
+.linksyu-right-sp {
+    width: 100%;
+}
+.mail-icon {
+margin-top: -20px;
+}
+.mail-icon-image {
+    width: 50px;
+    height: 50px;
+}
+.gohumeiten-detail {
+    margin-left: 30px;
+}
+.gohumeiten-mail {
+    font-size: 14px;
+}
+.gohumeiten-imfo {
+    font-size: 14px;
+}
+.blockTitleContainer {
+    margin-top: 35px;
+}
+.owarini {
+    width: 90vw;
+}
+.logo {
+    margin-top: 0;
+}
+}
