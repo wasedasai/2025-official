@@ -374,6 +374,7 @@ body {
 }
 .mail {
     color: #6274BE;
+    text-decoration: underline;
 }
 /* ここまでアドレス */
 /* ここから宣誓 */
