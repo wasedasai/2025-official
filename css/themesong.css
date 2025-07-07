@@ -472,6 +472,7 @@ min-width:28vw;
   }
   .data a{
     color:#6274BE;
+    text-decoration: none;
   }
  @media (max-width: 768px) {
     .br-sp{
@@ -544,13 +545,14 @@ min-width:28vw;
         padding: 1.2em;
         font-size: 14px;
         border: none;
-        border-bottom: 1px solid #1b1b1b;
+        border-bottom: 1px solid #222222;
         background-color: #fbfbfb;
         cursor: pointer;
         transition: background-color 0.3s ease;
         position:relative;
         font-family:'Zen Kaku Gothic New';
       }
+      
       .icon-arrow::before{
 		position: absolute;
         right:20px;
