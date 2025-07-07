@@ -1,0 +1,539 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    color: #222222;
+}
+
+p{
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.left-square {
+    width: 12px;
+    height: 13px;
+    background-color: #6274be;
+    margin-right: 28px;
+}
+.right-square {
+    width: 12px;
+    height: 13px;
+    background-color: #d54640;
+    margin-left: 28px;
+}
+.title-content {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+/* ここからタイトル */
+.line-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-title-content {
+    font-weight: 500;
+    font-size: 32px;
+}
+.left-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-right: 28px;
+}
+.right-line {
+    width: 78px;
+    height: 1px;
+    background-color: #000;
+    margin-left: 28px;
+}
+/* ここまでタイトル */
+
+
+.catchcopy{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.catchcopy img{
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.catchcopyUpper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 5.555vw;
+    font-weight: 500;
+}
+
+.catchcopyUnder{
+    font-size: 2.222vw;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.explanation{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.tellYourLife{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.mainSlogan{
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}
+
+.logoSection{
+    width: 80vw;
+    margin: 100px auto;
+}
+
+.logoTitle{
+    margin-bottom: 50px;
+}
+
+.colorSquare{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: #d54640;
+}
+
+.blue{
+    background-color: #6274be;
+}
+
+.pallet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.pallet p{
+    font-size: 20px ;
+    line-height: 1.5;
+}
+
+.colorPallete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.redText{
+    color: #d54640;
+}
+
+.blueText{
+    color: #6274be;
+}
+
+.logoSection h1{
+    text-align: center;
+    font-size: 4.4444vw;
+    font-weight: 500;
+}
+
+.logoSection img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.logoText{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.fontsContainer{
+    width: 80vw;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.fontsContainer h1{
+    font-size: 20px;
+}
+
+.fontIntroduction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fontSmall{
+    font-size: 1.3888vw;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.fontBig{
+    font-size: 4.4444vw;
+}
+
+.logoData{
+    width: 80vw;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.logoData p{
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.logoImage{
+    width: 55.55555vw;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #6274be;
+}
+
+.warning-section{
+    margin: 0 130px;
+    margin-top: 150px;
+    font-size: 20px;
+    border: #222222 solid 2px;
+    padding: 60px 80px;
+}
+.warning-section h3{
+    font-size: 32px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.warning-sentence h4{
+    margin-bottom: 10px;
+}
+.warning-sentence-gap{
+    margin-bottom: 50px;
+}
+.isolation-img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.isolation-img img{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.isolation-text{
+    width: 21vw;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vw;
+}
+.isolation-text p{
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+.credit-section{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+.credit-title{
+    font-size: 32px;
+    font-weight: 500;
+}
+.copy-right{
+    font-size: 14px;
+    align-self: flex-end;
+}
+.credit-section p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.credit-section h4{
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.spOnly{
+    display: none;
+}
+
+
+
+ .title{
+        margin-top: 200px;
+    }
+
+@media (max-width:1290px){
+    .credit-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .credit-section h4{
+        margin-top: 50px;
+    }
+
+    .copy-right{
+        align-self: center;
+        margin-top: 50px;
+    }
+
+    .title{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 1024px){
+    .isolation-img-container{ flex-wrap: wrap; gap: 20px; }
+    .isolation-img img{ width: 100%; height: auto; }
+
+    .isolation-text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767px){
+    .spOnly{
+        display: block;
+    }
+
+    /* .pcOnly{
+        display: none;
+    } */
+
+
+    p{
+        font-size: 12px;
+    }
+
+    .title{
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .title-content{
+        font-size: 20px;
+    }
+
+    .left-square {
+        width: 8px;
+        height: 8px;
+        background-color: #6274be;
+        margin-right: 20px;
+    }
+    .right-square {
+        width: 8px;
+        height: 8px;
+        background-color: #d54640;
+        margin-left: 20px;
+    }
+
+
+    .line-title{
+        width: 80vw;
+        margin: 0 auto;
+    }
+     .line-title h1 {
+        font-size: 16px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-align:center;
+      }
+
+    .left-line {
+        width: 40px;
+        height: 1px;
+        background-color: #000;
+        margin-right: 15px;
+    }
+    .right-line {
+        width: 40px;
+        height: 1px;
+        background-color: #000;
+        margin-left: 15px;
+    }
+
+    .catchcopyUpper{
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .catchcopyUnder{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .tellYourLife{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .mainSlogan{
+        margin: 30px 0 30px 0;
+    }
+
+    .logoText{
+        font-size: 14px;
+        margin-bottom: 80px;
+    }
+
+    .explanation{
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+
+    .catchcopy{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+    .palletText p{
+        font-size: 10px ;
+    }
+
+    .colorSquare{
+        width: 45px;
+        height: 45px;
+    }
+
+    .colorPallete{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        width: 80vw;
+        margin: 50px auto 70px auto ;
+    }
+
+    .fontsContainer{
+        margin: 30px auto 70px auto;
+    }
+
+    .fontsContainer h1{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .fontIntroduction{
+        display:block;
+        align-items: center;
+    }
+
+    .fontSmall{
+        font-size: 14px;
+    }
+
+
+
+    .fontBig{
+        font-size: 32px;
+    }
+
+    .logoData{
+        width: 80vw;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .logoData p{
+        font-size: 14px;
+    }
+
+    .logoImage{
+        width: 265px;
+        height: auto;
+    }
+
+    .logoData p{
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+     .isolation-img img{ width: 100%; height: auto; margin-bottom: 0px; margin-top: 0;}
+  .isolation-img-container{
+    margin-bottom: 25px;
+  }
+    .isolation-text{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .isolation-text p{
+        margin-top: 5px;
+        line-height: 24px;
+    }
+  .warning-section p{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .warning-section h3{
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+  .logoSection{
+    width: 80vw;
+    margin: 50px auto;
+}
+
+.logoText{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+  /* 警告枠のパディング縮小 */
+  .warning-section{ margin: 0 7vw; padding: 40px 24px; font-size: 16px; margin-top: 70px; border: #222222 solid 1px;}
+  
+  .credit-title{ font-size: 24px; }
+  .credit-section{ margin-top: 80px; }
+  .credit-section h4{ font-size: 24px; margin-top: 40px; }
+  .credit-section p{ font-size: 16px; }
+  .copy-right{ font-size: 12px; margin-top: 60px; margin-right: 10px;}
+}
+
