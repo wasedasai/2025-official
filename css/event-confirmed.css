@@ -147,7 +147,7 @@ body{
 }  
 .kaimoji p{
   margin:2em;
-  font-size:42px;
+  font-size:35px;
 }
 .kaibasyo1{
   width:20vw;
@@ -179,14 +179,15 @@ body{
   margin-bottom: 13vw;
 }
 .marujou{
-  width: 26vw;
+  width: 23vw;
 }
 .rinku{
-  width:48vw;
+  width:54vw;
   text-align: center;
   justify-content: center;
   align-items: center;
   font-size:25px;
+  margin-bottom:7vw;
 }
 .rinku a{
   color:#6274be;
@@ -199,7 +200,7 @@ body{
   display:inline-block;
 }
 .marusan{
-  width:26vw;
+  width:23vw;
   position:relative;
 }
 .redn1{
@@ -253,7 +254,7 @@ display:none;
   right:14vw;
   top:58vw;
   mix-blend-mode: multiply;
-  margin-bottom:8vw;
+  margin-bottom:15vw;
 }
 .slogan{
   font-size: 35px;
