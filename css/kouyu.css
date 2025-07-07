@@ -1,9 +1,10 @@
 *{
-    background-color: #fbfbfb;
+
 }
 body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: #fbfbfb;
 }
 .goaisatsu {
     width: 100vw;
@@ -197,7 +198,6 @@ body {
     background-color: #ffffff   ;
 }
 .footer-menu-list li {
-    /* background-color: #ffffff; */
 }
 .footer-sns-icon {
     background-color: #ffffff;
@@ -218,7 +218,7 @@ body {
 footer {
     width: 100vw;
     overflow-x: hidden;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 .footer-blue-decoration img {
     background-color: #6274be !important;

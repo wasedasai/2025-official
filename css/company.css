@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .line-title-content {
     font-weight: 500;
@@ -275,7 +276,7 @@ body {
     width: 38vw;
     /* height: 675px; */
     border: #000 1px solid;
-    border-radius: 50px;
+    border-radius: 20px;
     padding-top: 50px;
 }
 .bihinbuppintitle {
@@ -297,19 +298,19 @@ body {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 50px;
-}
+}  
 /* ここまで協賛ならべ */
 .seikahousyuu {
     width: 100vw;
-    height: 400px;
+    /* height: 400px; */
     margin-top: 50px;
 }
 .seika-container {
-    width: 80vw;
-    border: #000 1px solid;
-    border-radius: 50px;
+    width: 80.5vw;
+    /* border: #000 1px solid; */
+    border-radius: 20px;
     margin: 0 auto;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 .seikahousyuutitle {
     font-size: 36px;
@@ -478,6 +479,34 @@ footer {
     display: block;
 }
 
+.kyosan-narabe {
+    height: auto;
+}
+.kyosan-narabe-container {
+    display: inline;
+
+}
+.bihinkyousan {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: none;
+    text-align: center;
+    height: 150px;
+    padding: 0;
+}
+.bihibuhiimage {
+    width: 55vw;
+}
+.bihibuhisentence {
+    width: 80vw;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.gatsunosyuusei {
+    margin-top: 200px;
+}
 @media (max-width: 1250px) {
 .swiper-slide {
     height: 700px !important;
@@ -623,5 +652,18 @@ footer {
 .logo {
     margin-top: 10px;
 }
+.koukokukyousan-spsentence {
+    padding-top: 50px;
+    display: block;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 250px;
+}
+.hosomoji {
+    font-size: 10px;
 
+}
+.aisatsu-sentence {
+    margin-top: 30px;
+}
 }
