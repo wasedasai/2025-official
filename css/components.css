@@ -273,9 +273,12 @@ body{
   margin-bottom: 50px;
   margin-left: 108px;
 }
-.footer-sns-text-box{
-  margin-right: -37px;
+/* .footer-sns-icon{
+  margin-right: 10px;
 }
+.footer-sns-text-box{
+  margin-right: 0px;
+} */
 .sns-area img{ width: 40px; }
 .sns-area a:hover{
   opacity: 0.6;
@@ -448,7 +451,7 @@ footer{
 .footer-sns-text-box{
   display: flex;
   align-items: center;
-  margin-left: 33px;
+  margin-left: 67px;
 }
 .footer-sns-line{
   width: 1px;
@@ -511,7 +514,7 @@ footer{
     top: 23%;
 }
 .footer-sns-container{
-    margin-right: 30px;
+    margin-right: 10px;
   }
   .footer-small-font{
     font-size: 13px;
