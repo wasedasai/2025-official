@@ -341,15 +341,12 @@ body {
   font-size: 1.5vw;
   font-weight: 400;
 }
-.square-link:hover {
-  opacity: 0.5; /* ホバー時に透明度を50%に設定 */
-}
 
 .square-link::after {
   content: "";
   display: block;
   width: 15vw; /* 下線の長さを15vwに設定 */
-  height: 1px; /* 下線の太さ */
+  height: 2px; /* 下線の太さ */
   background-color: #222222; /* 下線の色 */
   position: absolute;
   left: 50%;
@@ -593,7 +590,7 @@ body {
     position: absolute;
     bottom: 0px;
     right: 2px;
-    width: 43vw;
+    width: 37vw;
     height: 60vw;
     border: 1px solid #222222; /* 線の色と太さ */
     background-color: #ffffff; /* 内部の背景色 */
@@ -632,28 +629,6 @@ body {
     font-size: 3.5vw;
     overflow: visible;
   }
-  .square-link::after {
-    content: "";
-    display: block;
-    width: 24vw; /* 下線の長さ */
-    height: 1px; /* 下線の太さ */
-    background-color: #222222; /* 下線の色 */
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) skewX(15deg); /* 中央に配置し、右側を15度曲げる */
-    bottom: -5px;
-  }
-  
-  .square-link::before {
-    content: "";
-    display: block;
-    width: 10px; /* 矢印の羽の幅 */
-    height: 10px; /* 矢印の羽の高さ */
-    border-top: 1px solid #222222; /* 上側の羽 */
-    position: absolute;
-    right: calc(50% - 12vw); /* 矢印の位置を調整 */
-    bottom: -10px; /* 矢印の高さを調整 */
-    transform: rotate(45deg); /* 矢印の羽を45度回転 */
   .policy-text {
     font-size: 14px;
     margin-bottom: 11px;
@@ -740,7 +715,6 @@ body {
   }
   .main-title {
     font-size: 6vw;
-    margin-top: 5vh;
   }
   .button-container {
     display: flex;
